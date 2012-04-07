@@ -1,0 +1,7 @@
+LIBRARY	"blobslib"
+EXPORTS
+	fnblobslib	@1
+	blobslib_init	@2
+	blobslib_do	@3
+	blobslib_free	@4
+	

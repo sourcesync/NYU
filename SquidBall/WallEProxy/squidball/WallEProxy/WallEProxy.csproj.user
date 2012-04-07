@@ -1,0 +1,6 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>128.122.47.233:6234 0 .</StartArguments>
+    <StartWorkingDirectory>C:\George\Squidball\sourecontrol\squidball\Release\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>
