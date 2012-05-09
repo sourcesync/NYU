@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob
+END
+cvcontour.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvcontour.cpp
+END
+cvaux.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvaux.cpp
+END
+cvblob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvblob.cpp
+END
+cvcolor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvcolor.cpp
+END
+cvlabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvlabel.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/greendot/!svn/ver/2981/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/CMakeLists.txt
+END
+cvblob.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/greendot/!svn/ver/2988/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvblob.h
+END
+cvtrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/greendot/!svn/ver/2988/SquidBall/trunk/tracker/server/WallEProxy/blobslib/cvBlob/cvtrack.cpp
+END

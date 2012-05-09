@@ -1,0 +1,8 @@
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\bin\Debug\WallEProxy.exe
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\bin\Debug\WallEProxy.pdb
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\bin\Debug\Newtonsoft.Json.dll
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Debug\ResolveAssemblyReference.cache
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Debug\WallE_Proxy.WallE.resources
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Debug\WallEProxy.csproj.GenerateResource.Cache
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Debug\WallEProxy.exe
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Debug\WallEProxy.pdb

@@ -1,0 +1,16 @@
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\bin\Release\WallEProxy.exe
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\bin\Release\WallEProxy.pdb
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\bin\Release\Newtonsoft.Json.dll
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Release\ResolveAssemblyReference.cache
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Release\WallE_Proxy.WallE.resources
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Release\WallEProxy.csproj.GenerateResource.Cache
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Release\WallEProxy.exe
+C:\George\Squidball\sourecontrol\squidball\WallEProxy\obj\Release\WallEProxy.pdb
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\obj\Release\WallEProxy.exe
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\obj\Release\WallEProxy.pdb
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\bin\Release\WallEProxy.exe
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\bin\Release\WallEProxy.pdb
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\bin\Release\Newtonsoft.Json.dll
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\obj\Release\ResolveAssemblyReference.cache
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\obj\Release\WallE_Proxy.WallE.resources
+C:\George\NYU\source_control\NYU\SquidBall\WallEProxy\squidball\WallEProxy\obj\Release\WallEProxy.csproj.GenerateResource.Cache
