@@ -1,0 +1,22 @@
+RANK: Right Ankle
+RLF: Right Lower Foot
+RLS: Right Left Shoulder
+RUF: Right Upper Foot
+LLF: Left Lower Foot
+RUA: Right Upper Arm
+RUF: Right Upper Foot
+LW: Left Front Waste
+RC: Right Calf
+FC: Front Center
+LQ: Left Quad
+RFS: Right Front Shoulder
+RUA: Right Under Arm
+TH: Top Head
+RW: Right Front Waste
+RFIQ: Right Front Inner Quad
+LFUK: Left Front Upper Knee
+RFUK: Right Front Upper Knee
+LUF: Left Upper Foot
+LLF: Left Lower Foot
+LHF: Left Head Front
+RFH: Right Front Head
