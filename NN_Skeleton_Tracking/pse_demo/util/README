@@ -1,0 +1,9 @@
+This directory contains helper functions not written by me
+
+minimize.m and checkgrad.m are provided by Carl Rasmussen
+http://www.kyb.tuebingen.mpg.de/bs/people/carl/code/minimize/
+
+div.m is provided by Kevin Murphy
+
+randSample.m is provided by Piotr Dollar
+http://vision.ucsd.edu/~pdollar/toolbox/doc/

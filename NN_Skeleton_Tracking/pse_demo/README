@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a simple implementation of the models presented in      %
+% Pose-sensitive Embedding by Convolutional NCA Regression        %
+% http://www.cs.nyu.edu/~gwtaylor/publications/                   %
+%                      nips2010/gwtaylor_nips2010.pdf             %
+%                                                                 %
+% Code provided by Graham Taylor January 2011                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Permission is granted for anyone to copy, use, modify, or distribute this
+program and accompanying programs and documents for any purpose, provided
+this copyright notice is retained and prominently displayed, along with
+a note saying that the original programs are available from our
+web page.
+The programs and documents are distributed without any warranty, express or
+implied.  As the programs were written for research purposes only, they have
+not been tested to the degree that would be advisable in any important
+application.  All use of these programs is entirely at the user's own risk.
+
+PREREQUISITES
+
+This demo requires a modern CUDA-capable GPU with at least 900 MB of
+device memory (e.g. GTX285 or later).
+
+It has been tested on a GTX295 (~900 MB memory) and Tesla 1070 (~4GB
+memory).
+
+It also requires a working installation of GPUmat:
+http://gp-you.org/
+
+And the GPUmat modules here (see the instructions on the website):
+http://www.cs.nyu.edu/~gwtaylor/code/GPUmat/
+
+Verify that the GPUmat modules are working by running testAll.m in
+the cuMisc/ directory and testAll.m in the cuConv/ directory.
+
+The demo has been tested with GPUmat 0.251 and CUDA 3.0. It should work with
+newer versions of both, but the GPU modules will need to be recompiled.
+
+It was also tested only on Linux. It should work on Windows but you
+will need to recompile GPU modules for your platform.
+
+GPUmat and all of the modules MUST BE ADDED TO THE MATLAB PATH.
+
+SETUP
+
+Download the synthetic dataset from here: 
+
+http://horatio.cs.nyu.edu/mit/ul_data/synthdata_lcn.mat
+http://horatio.cs.nyu.edu/mit/ul_data/synthdata.mat
+
+and place each matlab file in the data/ subdirectory.
+
+The first file contains data that is preprocessed using Local Contrast
+Normalization. It is used for training and validation.
+The second file contains the original data. It is used only for visualization.
+
+We show how to train a model with two different objectives (in both
+cases the architecture is the same).
+
+Various parameters can be set in conv_ncar.m & conv_drlim.m,
+respectively.  Default parameters should be OK. Though snapshot_path
+should be set to a working directory on your system.
+
+RUNNING THE DEMO
+
+The two entry points are: demo_conv_ncar.m (Objective: NCA Regression)
+                          demo_conv_drlim.m (Objective: Soft DrLim)
+
+
+When either of these scripts are run, a model is trained on the
+synthetic data. After every 100 minibatches, progress (on the
+objective) and pixel error are reported.
+
+After 2000 epochs nearest-neighbour pose estimation is performed on a
+subset of the validation set.
+
