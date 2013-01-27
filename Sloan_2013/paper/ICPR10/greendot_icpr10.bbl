@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{bouget:pil}
+J.~Bouget.
+\newblock {Pyramid Implementation of the Lucas Kanade Feature Tracker}.
+\newblock Technical report, Intel Tech. Rep., 2002.
+
+\bibitem{breglerICASSP09}
+C.~Bregler, G.~Williams, S.~Rosenthal, and M.~I.
+\newblock {Improving Acoustic Speaker Verification with Visual Body-Language
+  Features}.
+\newblock In {\em Proc. ICASSP}, 2009.
+
+\bibitem{Campbell06supportvector}
+W.~M. Campbell, D.~E. Sturim, and D.~A. Reynolds.
+\newblock Support vector machines using gmm supervectors for speaker
+  verification.
+\newblock {\em IEEE Signal Processing Letters}, 13:308--311, 2006.
+
+\bibitem{Dalal06humandetection}
+N.~Dalal, B.~Triggs, and C.~Schmid.
+\newblock Human detection using oriented histograms of flow and appearance.
+\newblock In {\em In European Conference on Computer Vision}. Springer, 2006.
+
+\bibitem{DollarPETS05}
+P.~Doll{\'a}r, V.~Rabaud, G.~Cottrell, and S.~Belongie.
+\newblock {Behavior recognition via sparse spatio-temporal features}.
+\newblock {\em ICCV VS-PETS}, 2005.
+
+\bibitem{efros2003recognizing}
+A.~Efros, A.~Berg, G.~Mori, and J.~Malik.
+\newblock {Recognizing action at a distance}.
+\newblock In {\em ICCV}, 2003.
+
+\bibitem{forsyth2005csh}
+D.~Forsyth, O.~Arikan, L.~Ikemoto, J.~O'Brien, and D.~Ramanan.
+\newblock {Computational Studies of Human Motion: Part 1, Tracking and Motion
+  Synthesis}.
+\newblock {\em Foundations and Trends in Computer Graphics and Vision}.
+
+\bibitem{jain2005score}
+A.~Jain, K.~Nandakumar, and A.~Ross.
+\newblock {Score normalization in multimodal biometric systems}.
+\newblock {\em Pattern recognition}, 38(12):2270--2285, 2005.
+
+\bibitem{laptevCVPR08}
+I.~Laptev, M.~Marsza{\l}ek, C.~Schmid, and B.~Rozenfeld.
+\newblock {Learning realistic human actions from movies}.
+\newblock {\em Proc. CVPR}, 2008.
+
+\bibitem{muller2007sci}
+C.~M{\"u}ller.
+\newblock {\em {Speaker classification - selected projects Lecture notes in
+  computer science Lecture notes in artificial intelligence}}.
+\newblock Springer, 2007.
+
+\bibitem{niebles2008unsupervised}
+J.~Niebles, H.~Wang, and L.~Fei-Fei.
+\newblock {Unsupervised learning of human action categories using
+  spatial-temporal words}.
+\newblock {\em IJCV}, 79(3):299--318, 2008.
+
+\bibitem{pittpatt}
+{PittPatt.com}.
+\newblock {PittPatt Face Detection, Tracking, and Recognition SDK}.
+
+\bibitem{sarkar2005humanid}
+S.~Sarkar, P.~Phillips, Z.~Liu, I.~Vega, P.~Grother, and K.~Bowyer.
+\newblock {The humanID gait challenge problem: data sets, performance, and
+  analysis}.
+\newblock {\em IEEE PAMI}, pages 162--177, 2005.
+
+\bibitem{ST94}
+J.~Shi and C.~Tomasi.
+\newblock Good features to track.
+\newblock In {\em Proc. CVPR}, pages 593--600, 1994.
+
+\bibitem{zelnikmanor2006sad}
+L.~Zelnik-Manor and M.~Irani.
+\newblock {Statistical Analysis of Dynamic Actions}.
+\newblock {\em IEEE PAMI}, pages 1530--1535, 2006.
+
+\end{thebibliography}

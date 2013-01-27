@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{pittpattgoogle}
+PittPatt.com.
+\newblock \url{http://techcrunch.com/2011/07/22/google-acquires-facial/recognition-software-company-pittpatt/}.
+\newblock news story, Techcrunch, 2011.
+
+\bibitem{deeplearning}
+DeepLearning.net.
+\newblock \url{http://deeplearning.net/}.
+\newblock general information, 2013.
+
+\bibitem{ticketmaster}
+J.~Forese.
+\newblock Ticketmaster LiveAnalytics: Big Data and Sports Ticketing
+\newblock Talks and Presentations, Sloan Sports Conference 2012.
+
+\bibitem{fanalytics}
+T.~Brosnan, M.~Cuban, N.~Hubbard, J.~Kraft, J.~Walsh, B.~Simmons.
+\newblock Fanalytics.
+\newblock Panels, Sloan Sports Conference 2012.
+
+\bibitem{ticketmaster2}
+J.~Forese.
+\newblock Ticketmaster: Fan Analytics And Insights
+\newblock Talks and Presentations, Sloan Sports Conference 2012.
+
+\bibitem{ticketinganalytics}
+S.~Springer, W.~Townshend, B.~Lafemina, C.~Gahagan, L.~DePaoli.
+\newblock Ticketing Analytics.
+\newblock Panels, Sloan Sports Conference 2012.
+
+\bibitem{ticketinganalytics2}
+B.~Lafemina, C.~Gahagan, L.~DePaoli, D.~Maged, J.~Gelman.
+\newblock Ticketing Analytics, Presented By Stub-Hub
+\newblock Panels, Sloan Sports Conference 2012.
+
+\bibitem{pets}
+Performance Evaluation of Tracking and Surveillance.
+\newblock {http://pets2012.net}.
+\newblock Conference, 2009-2012.
+
+\bibitem{msvalc}
+Workshop on Modeling, Simulation, and Visual Analysis of Large Crowds.
+\newblock {http://vision.eecs.ucf.edu/ICCVWorkshop/home.html}.
+\newblock Conference, 2011-2012.
+
+\bibitem{trackingunstructured}
+M.~Rodriguez,S.~Ali,T.~Kanade.
+\newblock Tracking In Unstructured Crowd Scenes.
+\newblock In {\em ICCV}, 2009.
+
+\bibitem{trackingsmallgroups}
+G.~Weina, R.~Collins, B.~Ruback.
+\newblock Automatically Detecting Small Group Structure of a Crowd.
+\newblock {\em Applications of Computer Vision}, IEEE, 2009.
+
+\bibitem{modelbasedimage}
+J.~O'Rourke, N.~Badler.
+\newblock Model-based image analysis of human motion using constraint propogation.
+\newblock In {\em IEEE Transaction on Pattern Analysis and Machine Intelligence}, 2(6):522-536, 1980.
+
+\bibitem{modelbasedvision}
+D.~Hogg.
+\newblock Model-based vision: a program to see a walking person.
+\newblock In {\em Image and Vision Computing}, 1(1):5-20, 1983.
+
+\bibitem{humanmotionanalysis}
+M.~Yahamoto, K.~Koshikawa.
+\newblock Human motion analysis based on a robot arm model.
+\newblock In {\em Computer Vision and Pattern Recognition}, 1991.
+
+\bibitem{threedeemodel}
+D.~Gavrila, L.~Davis.
+\newblock 3-d model-based tracking of humans in action: a multi-view approach.
+\newblock In {\em Computer Vision and Pattern Recognition}, 1996.
+
+\bibitem{modelrec}
+K.~Rohr.
+\newblock Towards model-based recognition of human movement in image sequences.
+\newblock In {\em CVGIP-Image Understanding}, 59(1):94-115, 1994.
+
+\bibitem{modelbasedtracking}
+J.~Rehg, T.~Kanade.
+\newblock Model-based tracking of self-occluding articulated objects.
+\newblock In {\em Computer Vision}, 1995.
+
+\bibitem{trackingpeople}
+C.~Bregler, J.~Malik.
+\newblock Tracking people with twists and exponential maps.
+\newblock In {\em Computer Vision and Pattern Recognition}, 1998.
+
+\bibitem{modelbasedest}
+L.~Kakadiaris, D.~Metaxas.
+\newblock Model-based estimation of 3d human motion.
+\newblock In {\em Pattern Analysis and Machine Intelligence}, 22(12):1453-1459, 2000.
+
+\bibitem{articbody}
+J.~Deutscher, A.~Blake, I.~Reid.
+\newblock Articulated body motion capture by annealed particle filtering.
+\newblock In {\em Computer Vision and Pattern Recognition}, 2000.
+
+\bibitem{stochastic}
+H.~Sidenbladh, M.~Black, D.~Fleet.
+\newblock Stochastic tracking of 3d human figures using 2d image motion.
+\newblock In {\em Computer Vision ECCV}, pages 702-718, 2000.
+
+\bibitem{laban}
+Laban Movement Analysis.
+\newblock \url{http://en.wikipedia.org/wiki/Laban_Movement_Analysis}
+\newblock general information, 2013.
+
+\bibitem{amazon}
+Amazon Mechanical Turk.
+\newblock \url{https://www.mturk.com/mturk/welcome}
+\newblock general information, 2013.
+
+\end{thebibliography}

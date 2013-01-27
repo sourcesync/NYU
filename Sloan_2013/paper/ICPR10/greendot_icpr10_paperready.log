@@ -1,0 +1,373 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  19 JAN 2013 14:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**greendot_icpr10_paperready.tex
+(./greendot_icpr10_paperready.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./latex8.sty
+IEEE 8.5 x 11-Inch Proceedings Style `latex8.sty'.
+\@ctmp=\skip43
+\@figindent=\skip44
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen103
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+)
+
+LaTeX Warning: Unused global option(s):
+    [times].
+
+(./greendot_icpr10_paperready.aux)
+\openout1 = `greendot_icpr10_paperready.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 24.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen108
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen109
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+
+
+LaTeX Warning: Citation `laptevCVPR08' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `niebles2008unsupervised' on page 1 undefined on input 
+line 54.
+
+
+LaTeX Warning: Citation `efros2003recognizing' on page 1 undefined on input lin
+e 54.
+
+
+LaTeX Warning: Citation `DollarPETS05' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `sarkar2005humanid' on page 1 undefined on input line 5
+4.
+
+
+LaTeX Warning: Citation `pittpatt' on page 1 undefined on input line 55.
+
+<matrix_3x3.jpg, id=1, 515.9275pt x 396.48125pt>
+File: matrix_3x3.jpg Graphic file (type jpg)
+ <use matrix_3x3.jpg>
+Package pdftex.def Info: matrix_3x3.jpg used on input line 60.
+(pdftex.def)             Requested size: 212.47528pt x 163.28433pt.
+
+
+LaTeX Warning: Citation `forsyth2005csh' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `zelnikmanor2006sad' on page 1 undefined on input line 
+67.
+
+
+LaTeX Warning: Citation `Dalal06humandetection' on page 1 undefined on input li
+ne 67.
+
+
+LaTeX Warning: Citation `laptevCVPR08' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `niebles2008unsupervised' on page 1 undefined on input 
+line 67.
+
+
+LaTeX Warning: Citation `efros2003recognizing' on page 1 undefined on input lin
+e 67.
+
+
+LaTeX Warning: Citation `DollarPETS05' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `muller2007sci' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Campbell06supportvector' on page 1 undefined on input 
+line 69.
+
+[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./matrix_3x3.jpg>] <Sarkozy_MOS.png, id=11, 473.77pt x 143.53625pt>
+File: Sarkozy_MOS.png Graphic file (type png)
+
+<use Sarkozy_MOS.png>
+Package pdftex.def Info: Sarkozy_MOS.png used on input line 76.
+(pdftex.def)             Requested size: 212.47528pt x 64.37169pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+
+
+LaTeX Warning: Citation `ST94' on page 2 undefined on input line 84.
+
+
+LaTeX Warning: Citation `bouget:pil' on page 2 undefined on input line 84.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 84.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 84.
+
+LaTeX Warning: Citation `breglerICASSP09' on page 2 undefined on input line 91.
+
+
+
+LaTeX Warning: Citation `pittpatt' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Campbell06supportvector' on page 2 undefined on input 
+line 104.
+
+
+LaTeX Warning: Citation `Campbell06supportvector' on page 2 undefined on input 
+line 106.
+
+
+LaTeX Warning: Citation `Campbell06supportvector' on page 2 undefined on input 
+line 109.
+
+
+LaTeX Warning: Citation `breglerICASSP09' on page 2 undefined on input line 110
+.
+
+<fig_arch.jpg, id=12, 550.055pt x 152.57pt>
+File: fig_arch.jpg Graphic file (type jpg)
+ <use fig_arch.jpg>
+Package pdftex.def Info: fig_arch.jpg used on input line 113.
+(pdftex.def)             Requested size: 212.47528pt x 58.93402pt.
+ [2 <./Sarkozy_MOS.png>]
+
+LaTeX Warning: Citation `laptevCVPR08' on page 3 undefined on input line 120.
+
+
+LaTeX Warning: Citation `niebles2008unsupervised' on page 3 undefined on input 
+line 120.
+
+
+LaTeX Warning: Citation `efros2003recognizing' on page 3 undefined on input lin
+e 120.
+
+
+LaTeX Warning: Citation `DollarPETS05' on page 3 undefined on input line 120.
+
+
+LaTeX Warning: Citation `laptevCVPR08' on page 3 undefined on input line 120.
+
+
+LaTeX Warning: Citation `laptevCVPR08' on page 3 undefined on input line 120.
+
+<roc_tan_normalized2.jpg, id=19, 332.24126pt x 275.0275pt>
+File: roc_tan_normalized2.jpg Graphic file (type jpg)
+
+<use roc_tan_normalized2.jpg>
+Package pdftex.def Info: roc_tan_normalized2.jpg used on input line 125.
+(pdftex.def)             Requested size: 212.47528pt x 175.8869pt.
+
+<roc_logreg2.jpg, id=20, 332.24126pt x 275.0275pt>
+File: roc_logreg2.jpg Graphic file (type jpg)
+ <use roc_logreg2.jpg>
+Package pdftex.def Info: roc_logreg2.jpg used on input line 126.
+(pdftex.def)             Requested size: 212.47528pt x 175.8869pt.
+
+
+LaTeX Warning: Citation `pittpatt' on page 3 undefined on input line 134.
+
+[3 <./fig_arch.jpg> <./roc_tan_normalized2.jpg> <./roc_logreg2.jpg>]
+
+LaTeX Warning: Citation `breglerICASSP09' on page 4 undefined on input line 136
+.
+
+
+LaTeX Warning: Citation `jain2005score' on page 4 undefined on input line 136.
+
+
+LaTeX Warning: Citation `jain2005score' on page 4 undefined on input line 136.
+
+<fig_example_v2.jpg, id=24, 453.695pt x 238.8925pt>
+File: fig_example_v2.jpg Graphic file (type jpg)
+ <use fig_example_v2.jpg>
+Package pdftex.def Info: fig_example_v2.jpg used on input line 139.
+(pdftex.def)             Requested size: 212.47528pt x 111.87851pt.
+
+No file greendot_icpr10_paperready.bbl.
+[4 <./fig_example_v2.jpg>] (./greendot_icpr10_paperready.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1679 strings out of 493488
+ 24504 string characters out of 3141326
+ 83825 words of memory out of 3000000
+ 4957 multiletter control sequences out of 15000+200000
+ 29220 words of font info for 53 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 37i,8n,23p,1128b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on greendot_icpr10_paperready.pdf (4 pages, 750061 bytes).
+PDF statistics:
+ 52 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

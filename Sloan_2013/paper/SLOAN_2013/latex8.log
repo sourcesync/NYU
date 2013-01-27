@@ -1,0 +1,64 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.1.19)  19 JAN 2013 15:21
+entering extended mode
+ %&-line parsing enabled.
+**latex8.tex
+(./latex8.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./latex8.sty
+IEEE 8.5 x 11-Inch Proceedings Style `latex8.sty'.
+! Font \tenhv=phvb7t at 10.0pt not loadable: Metric (TFM) file not found.
+l.53 \font\tenhv  = phvb7t at 10pt
+                                  
+? 
+! Interruption.
+l.54 
+     
+? quit
+OK, entering \batchmode...
+\@ctmp=\skip43
+\@figindent=\skip44
+) (/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+
+! LaTeX Error: File `balance.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+ Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.13 ^^M
+        
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 224 strings out of 95087
+ 2469 string characters out of 1183278
+ 46209 words of memory out of 1500000
+ 3479 multiletter control sequences out of 10000+50000
+ 3948 words of font info for 15 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 23i,0n,19p,141b,36s stack positions out of 5000i,500n,6000p,200000b,5000s
+No pages of output.

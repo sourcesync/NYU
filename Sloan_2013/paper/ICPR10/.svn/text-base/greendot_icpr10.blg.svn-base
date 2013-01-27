@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: greendot_icpr10.aux
+The style file: latex8.bst
+Database file #1: vision.bib
+Warning--entry type for "pittpatt" isn't style-file defined
+--line 18457 of file vision.bib
+Warning--empty year in bouget:pil
+Warning--empty year in forsyth2005csh
+You've used 15 entries,
+            2118 wiz_defined-function locations,
+            899 strings with 12108 characters,
+and the built_in function-call counts, 5116 in all, are:
+= -- 488
+> -- 272
+< -- 3
++ -- 107
+- -- 92
+* -- 337
+:= -- 858
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 91
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 197
+empty$ -- 385
+format.name$ -- 92
+if$ -- 1064
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 77
+num.names$ -- 30
+pop$ -- 110
+preamble$ -- 1
+purify$ -- 76
+quote$ -- 0
+skip$ -- 143
+stack$ -- 0
+substring$ -- 260
+swap$ -- 47
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 58
+warning$ -- 2
+while$ -- 45
+width$ -- 17
+write$ -- 155
+(There were 3 warnings)
