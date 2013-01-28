@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox
+END
+reverse_max_pool_gpu.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool_gpu.m
+END
+reverse_max_pool3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool3d.cpp
+END
+max_pool_gpu.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool_gpu.m
+END
+max_pool3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool3d.cpp
+END
+reverse_max_pool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool.cpp
+END
+setup.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/setup.m
+END
+reverse_avg_pool.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_avg_pool.m
+END
+max_pool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool.cpp
+END
+avg_pool.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/avg_pool.m
+END
+reverse_max_pool3d.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool3d.mexa64
+END
+reverse_avg_pool.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_avg_pool.mexa64
+END
+pool_wrapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/pool_wrapper.m
+END
+threshold_maps.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/threshold_maps.m
+END
+unpool_wrapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/unpool_wrapper.m
+END
+test_gpu_pooling.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/test_gpu_pooling.m
+END
+unpool_all_layers.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/unpool_all_layers.m
+END
+max_pool.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool.mexa64
+END
+reverse_avg_pool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_avg_pool.cpp
+END
+abs_avg_pool.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/abs_avg_pool.m
+END
+avg_pool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/avg_pool.cpp
+END
+hpccompilemex.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/hpccompilemex.m
+END
+reverse_max_pool3d.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool3d.m
+END
+compilemex.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/compilemex.m
+END
+max_pool3d.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool3d.m
+END
+hpcmexopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/hpcmexopts.sh
+END
+reverse_max_pool.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool.m
+END
+max_pool3d.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool3d.mexa64
+END
+mexopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/mexopts.sh
+END
+avg_pool.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/avg_pool.mexa64
+END
+max_pool.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/max_pool.m
+END
+pool_all_layers.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/pool_all_layers.m
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/README.txt
+END
+reverse_max_pool.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/PoolingToolbox/reverse_max_pool.mexa64
+END

@@ -1,0 +1,45 @@
+MISC MODULE
+---------------
+
+- Implemented functions
+ * cuRand - uniform random generation
+ * cuRandn - Gaussian random generation
+ * cuBinarizeProbs - Bernoulli sampling 
+ * cuSigmoid - Logistic function
+ * cuThreeway - Generalized three-way "outer product"
+ * cuDist - Euclidean distance computation
+ * cuSquaredDist - Euclidean squared distance computation
+ * cuCopyInto - Copies every image into a larger image (zero padding)
+ * cuGridToMatrix - like a parallelized im2col
+ * cuMatrixToGrid - like a parallelized col2im
+ * cuRotate180 - Batch rotation of many filters
+ * cuSampleMultinomial - Sample from many same-size multinomial distributions in parallel
+ * cuSubsample - Average pooling many images
+ * cuSupersample - Upsampling many images by a constant factor
+ * cuNCAreg - Compute gradients for NCA regression (like a weighted distance)
+
+- Note: currently the seed file rnd_multipliers_32bit.txt needs to be in the current directory the first time you call any of cuRand,cuRandn,cuBinarizeProbs
+
+- Module initialization
+ * Run moduleinit from Matlab
+
+COMPILATION
+-----------
+
+Include folder '../../utils' in the MATLAB path.
+
+- make cpp 
+Compiles all .cpp files
+
+- make cuda
+Compiles .cu files into .cubin modules
+
+- make all  
+Compiles .cpp and .cu files and copy the compiled files to the release
+folder
+
+TESTING
+-------
+
+testAll.m - runs all the individual testXXX functions
+

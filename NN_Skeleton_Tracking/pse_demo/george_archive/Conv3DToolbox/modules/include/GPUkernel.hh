@@ -1,0 +1,11 @@
+#if !defined(GPUKERNEL_HH)
+#define GPUKERNEL_HH
+
+// THREADS BLOCK
+#define BLOCK_DIM1D 256
+
+// MAX THREADS PER STREAM
+#define MAXTHREADS_STREAM 65000
+
+
+#endif

@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>
+% A simple script to automatically select a GPU and start GPUmat. This uses the
+% obtain_gpu_lock_id script and environment variables to keep this GPU while
+% this matlab session is running. You must exit matlab to free the GPU it select.
+% It is highly recommended that you use the obtain_gpu_lock_id code to find
+% a free GPU on the current machine (or default back to CPU mode if there isn't
+% one free). Note: not matter what, this file will set model.USE_GPU to 1 if
+% the GPU is being used or 0 if it is not (ie. CPU mode).
+%
+% @file
+% @author Matthew Zeiler
+% @date Apr 11, 2011
+%
+% @gpu_file @copybrief startGPU.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% By default it tries to use the GPU if no model variable exists or you have
+% the USE_GPU field set to 1.
+if(~exist('model','var') || model.USE_GPU)
+    % Check if you already set an environment variable.
+    id = str2num(getenv('gpu_id'));
+    if(isempty(id) || id<0)
+        % Try to find a free GPU
+        if(exist('obtain_gpu_lock_id','file'))
+            fprintf('Could not get id from environment variable, trying obtain_gpu_lock_id to get free GPU.\n');
+            try
+                model.gpu_id = obtain_gpu_lock_id;
+                model.USE_GPU=1;
+                setenv('gpu_id',num2str(model.gpu_id));
+            catch err
+                fprintf('ERROR::obtain_gpu_lock_id failed to get a free GPU.\nDefaulting to CPU mode.\n');
+                model.USE_GPU=0;
+            end
+            
+            % Actually start the GPU device with correct ID once you have found a GPU.
+            if(model.USE_GPU && isfield(model,'gpu_id'))
+                % Now starting the device.
+                fprintf('Using lock on GPU %d, about to start GPU.\n',model.gpu_id);
+                GPUstart_device(model.gpu_id);
+                % Don't tie up the whole CPU as well.
+                model.comp_threads=1;
+            end
+                        
+        elseif(exist('GPUstart','file')) % Use GPUmat default GPU selection
+            fprintf('Using manual GPU selection. Be Careful other jobs aren''t running on the selected GPU.\n');
+            GPUstart
+            model.USE_GPU = 1;
+        else % Default to CPU only model.
+            fprintf('Could not get a GPU, falling back to CPU mode.\n');
+            model.USE_GPU = 0;
+        end
+    else
+        fprintf('Using existing GPU lock %d.\n',id);
+        model.gpu_id = id;
+        model.USE_GPU = 1;
+    end
+else
+    fprintf('Using CPU\n');
+    model.USE_GPU=0;
+end
+
+if(model.USE_GPU==0)
+    i=10;
+    while(i>0)
+        fprintf('Using CPU mode in %2d\r',i);
+        pause(1)
+        i=i-1;
+    end
+    fprintf('\n');
+end
+clear i id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

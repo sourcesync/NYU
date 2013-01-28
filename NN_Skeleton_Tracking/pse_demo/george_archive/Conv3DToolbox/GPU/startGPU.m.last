@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>
+% A simple script to automatically select a GPU and start GPUmat. This uses the
+% obtain_gpu_lock_id script and environment variables to keep this GPU while
+% this matlab session is running. You must exit matlab to free the GPU it select.
+%
+% @file
+% @author Matthew Zeiler
+% @date Apr 11, 2011
+%
+% @gpu_file @copybrief startGPU.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+if(~exist('model','var') || model.USE_GPU)
+    
+    id = str2num(getenv('gpu_id'));
+    if(isempty(id) || id<0)
+        try
+            fprintf('Could not get id from environment variable, trying to obtain_gpu_lock_id.\n');
+            model.gpu_id = obtain_gpu_lock_id;
+            model.USE_GPU=1;
+        catch
+            fprintf('Could not get a GPU, falling back to CPU mode.\n');
+            model.USE_GPU = 0;
+        end
+        setenv('gpu_id',num2str(model.gpu_id));
+    else
+        fprintf('Using existing GPU lock %d.\n',id);
+        model.gpu_id = id;
+        model.USE_GPU = 1;
+    end
+end
+
+if(model.USE_GPU)
+    fprintf('Using lock on GPU %d, about to start GPU.\n',model.gpu_id);
+    GPUstart_device(model.gpu_id);
+    % Don't tie up the whole CPU as well.
+    model.comp_threads=1;
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

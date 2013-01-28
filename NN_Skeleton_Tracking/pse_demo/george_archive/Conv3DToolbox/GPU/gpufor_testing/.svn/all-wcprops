@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing
+END
+gpufor_pool_w_indices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpufor_pool_w_indices.cpp
+END
+test_gpufor_conv.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/test_gpufor_conv.m
+END
+gpufor_conv.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpufor_conv.m
+END
+gpumax.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpumax.cpp
+END
+test_gpufor_pool.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/test_gpufor_pool.m
+END
+gpuforpool.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpuforpool.m
+END
+gpufor_conv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpufor_conv.cpp
+END
+gpufor_pool_w_indices.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpufor_pool_w_indices.m
+END
+test_gpumax.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/test_gpumax.m
+END
+gpumax.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpumax.m
+END
+gpuforpool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpufor_testing/gpuforpool.cpp
+END

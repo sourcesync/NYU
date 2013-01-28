@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup
+END
+valid_loopK_loopJ_ipp.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup/valid_loopK_loopJ_ipp.mexa64
+END
+ipp_conv2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup/ipp_conv2.mexa64
+END
+sparse_conv2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup/sparse_conv2.mexa64
+END
+valid_eachK_loopJ_ipp.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup/valid_eachK_loopJ_ipp.mexa64
+END
+full_eachJ_loopK_ipp.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup/full_eachJ_loopK_ipp.mexa64
+END
+sparse_valid_eachK_loopJ.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/backup/sparse_valid_eachK_loopJ.mexa64
+END

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool
+END
+cuMaxPool3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool3d.cpp
+END
+cuMax.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMax.mexa64
+END
+runme.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/runme.m
+END
+testMaxMin.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/testMaxMin.m
+END
+cuRevMaxPool.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuRevMaxPool.mexa64
+END
+cuMaxPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool.cpp
+END
+cuShrink.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuShrink.mexa64
+END
+cuRevMaxPool3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuRevMaxPool3d.cpp
+END
+nvmex
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/nvmex
+END
+cuMaxPool3d.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool3d.mexa64
+END
+nvopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/nvopts.sh
+END
+testcuMaxPool.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/testcuMaxPool.m
+END
+moduleinit.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/moduleinit.m
+END
+cuRevMaxPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuRevMaxPool.cpp
+END
+cuMaxPool10.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool10.cubin
+END
+cuShrink.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuShrink.cpp
+END
+reloadmodule.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/reloadmodule.m
+END
+cuMaxPool20.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool20.cubin
+END
+cuMaxPool11.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool11.cubin
+END
+make.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/make.m
+END
+cuMaxPool30.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool30.cubin
+END
+cuMaxPool21.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool21.cubin
+END
+cuMaxPool12.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool12.cubin
+END
+cuMaxPool22.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool22.cubin
+END
+cuMaxPool13.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool13.cubin
+END
+cuMaxPool.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool.mexa64
+END
+cuMaxPool23.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool23.cubin
+END
+cuMaxPool.cu
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuMaxPool.cu
+END
+cuRevMaxPool3d.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/max_pool/cuRevMaxPool3d.mexa64
+END

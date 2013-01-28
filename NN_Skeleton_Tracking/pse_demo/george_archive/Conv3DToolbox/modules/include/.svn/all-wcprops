@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include
+END
+GPUmatFFTInit.hh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatFFTInit.hh
+END
+GPUmatNumerics.hh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatNumerics.hh
+END
+GPUmatNumericsInit.hh
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatNumericsInit.hh
+END
+GPUmatCompiler.hh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatCompiler.hh
+END
+GPUkernel.hh
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUkernel.hh
+END
+GPUmatCompilerInit.hh
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatCompilerInit.hh
+END
+GPUmat.hh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmat.hh
+END
+GPUmatCompilerNumerics.hh
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatCompilerNumerics.hh
+END
+GPUmatGPUtypeInit.hh
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/include/GPUmatGPUtypeInit.hh
+END

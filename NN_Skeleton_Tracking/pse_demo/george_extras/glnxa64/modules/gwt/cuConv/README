@@ -1,0 +1,33 @@
+CONV,CONV2 MODULES
+---------------
+
+- Implemented functions
+ * cuConv - wrapper to Alex Krizhevsky's fast 2-D convolution routine:
+ convolve every image with every filter
+ * cuConv2 - wrapper to Alex Krizhevsky's fast 2-D convolution routine:
+ convolve every image with a different set of filters
+
+- Module initialization
+ * Run moduleinit from Matlab
+
+COMPILATION
+-----------
+
+Include folder '../../utils' in the MATLAB path.
+
+- make cpp 
+Compiles all .cpp files
+
+- make cuda
+Compiles .cu files into .cubin modules
+
+- make all  
+Compiles .cpp and .cu files and copy the compiled files to the release
+folder
+
+TESTING
+-------
+
+testcuConv.m  - Compares CPU and GPU convolution using cuConv
+testcuConv2.m - Compares CPU and GPU convolution using cuConv2
+

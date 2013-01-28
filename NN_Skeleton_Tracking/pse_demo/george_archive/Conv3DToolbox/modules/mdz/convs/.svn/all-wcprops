@@ -1,0 +1,407 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs
+END
+cuConv4.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv4.mexa64
+END
+cuConv7_2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv7_2.cpp
+END
+conv410.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv410.cubin
+END
+conv510.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv510.cubin
+END
+conv412.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv412.cubin
+END
+conv610.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv610.cubin
+END
+conv710.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv710.cubin
+END
+conv512.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv512.cubin
+END
+conv810.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv810.cubin
+END
+conv612.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv612.cubin
+END
+conv712.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv712.cubin
+END
+conv812.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv812.cubin
+END
+conv7.cu
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv7.cu
+END
+cuConv6_2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv6_2.mexa64
+END
+testcuConv4.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/testcuConv4.m
+END
+cuConv7.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv7.mexa64
+END
+conv421.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv421.cubin
+END
+conv521.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv521.cubin
+END
+conv423.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv423.cubin
+END
+conv621.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv621.cubin
+END
+conv721.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv721.cubin
+END
+conv523.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv523.cubin
+END
+conv821.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv821.cubin
+END
+conv623.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv623.cubin
+END
+conv723.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv723.cubin
+END
+conv823.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv823.cubin
+END
+conv6.cu
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv6.cu
+END
+cuConv7_2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv7_2.mexa64
+END
+cuConv6_2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv6_2.cpp
+END
+cuConv6.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv6.mexa64
+END
+cuConv8_2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv8_2.cpp
+END
+conv411.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv411.cubin
+END
+conv511.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv511.cubin
+END
+conv430.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv430.cubin
+END
+conv413.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv413.cubin
+END
+conv530.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv530.cubin
+END
+conv611.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv611.cubin
+END
+conv711.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv711.cubin
+END
+conv513.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv513.cubin
+END
+conv630.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv630.cubin
+END
+conv811.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv811.cubin
+END
+conv613.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv613.cubin
+END
+conv713.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv713.cubin
+END
+conv813.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv813.cubin
+END
+conv5.cu
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv5.cu
+END
+cuConv4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv4.cpp
+END
+cuConv5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv5.cpp
+END
+cuConv6.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv6.cpp
+END
+cuConv7.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv7.cpp
+END
+reloadmodule.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/reloadmodule.m
+END
+cuConv8_2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv8_2.mexa64
+END
+conv.cuh
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv.cuh
+END
+cuConv5.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/cuConv5.mexa64
+END
+conv420.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv420.cubin
+END
+conv520.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv520.cubin
+END
+conv422.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv422.cubin
+END
+conv620.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv620.cubin
+END
+conv720.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv720.cubin
+END
+conv522.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv522.cubin
+END
+conv820.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv820.cubin
+END
+conv622.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv622.cubin
+END
+conv722.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv722.cubin
+END
+conv4.cu
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv4.cu
+END
+conv822.cubin
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv822.cubin
+END
+conv8.cu
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/conv8.cu
+END
+moduleinit.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/moduleinit.m
+END
+make.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/mdz/convs/make.m
+END

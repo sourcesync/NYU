@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX
+END
+ipp_conv2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/ipp_conv2.cpp
+END
+valid_each3_each4_ipp.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/valid_each3_each4_ipp.mexa64
+END
+sparse_conv2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/sparse_conv2.cpp
+END
+valid_each3_sum4_ipp.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/valid_each3_sum4_ipp.mexa64
+END
+mexopts_mac.sh
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/mexopts_mac.sh
+END
+hpccompilemex.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/hpccompilemex.m
+END
+full_each4_sum3_ipp.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/full_each4_sum3_ipp.mexa64
+END
+sparse_valid_each3_sum4.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/sparse_valid_each3_sum4.mexa64
+END
+compilemex.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/compilemex.m
+END
+valid_each3_each4_ipp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/valid_each3_each4_ipp.cpp
+END
+ipp_conv2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/ipp_conv2.mexa64
+END
+hpcmexopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/hpcmexopts.sh
+END
+valid_each3_sum4_ipp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/valid_each3_sum4_ipp.cpp
+END
+full_each4_sum3_ipp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/full_each4_sum3_ipp.cpp
+END
+sparse_conv2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/sparse_conv2.mexa64
+END
+sparse_valid_each3_sum4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/sparse_valid_each3_sum4.cpp
+END
+mexopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/MEX/mexopts.sh
+END
