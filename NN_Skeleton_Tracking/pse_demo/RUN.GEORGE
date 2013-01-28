@@ -1,0 +1,10 @@
+#!/bin/csh
+
+setenv CUDA_HOME /usr/local/pkg/cuda/4.0/cuda
+setenv LD_LIBRARY_PATH /usr/local/pkg/cuda/4.0/cuda/lib64:/opt/intel/cce/10.0.023/lib:/usr/lib/xorg:/usr/lib64/xorg:/home/gwilliam/Packages/cuda/2.3/unpack/cuda/lib64
+setenv PATH /usr/local/pkg/cuda/4.0/cuda/bin:/opt/intel/cce/10.0.023/bin:/opt/sge/bin/lx24-amd64:/home/gwilliam/bin:/usr/local/bin:/opt/sunstudio/bin:/opt/bin:/opt/sfw/bin:/usr/sfw/bin:/usr/dt/bin:/usr/openwin/bin:/opt/SUNWspro/bin:/opt/java/bin:/usr/ccs/bin:/usr/bin:/bin:/usr/sbin:/usr/ucb:/opt/ncarg/bin:/opt/pathscale/bin:/usr/X11R6/bin:/sbin:/home/gwilliam/Packages/cuda/2.3/unpack/cuda/bin
+setenv CUDA_INSTALL_PATH /usr/local/pkg/cuda/4.0/cuda
+setenv KMP_DUPLICATE_LIB_OK TRUE
+
+nohup /opt/matlab/bin/matlab -nodisplay < demo_conv_ncar.m
+
