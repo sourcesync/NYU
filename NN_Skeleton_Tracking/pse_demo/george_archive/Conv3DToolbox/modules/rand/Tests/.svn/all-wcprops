@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/rand/Tests
+END
+test_GPUrandn.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/rand/Tests/test_GPUrandn.m
+END
+test_GPUrand.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/rand/Tests/test_GPUrand.m
+END
+test_randn.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/rand/Tests/test_randn.m
+END
+test_rand.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/rand/Tests/test_rand.m
+END

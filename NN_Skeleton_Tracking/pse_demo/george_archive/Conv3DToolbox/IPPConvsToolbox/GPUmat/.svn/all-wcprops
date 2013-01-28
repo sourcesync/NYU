@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/GPUmat
+END
+valid_each3_sum4_gpu.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/GPUmat/valid_each3_sum4_gpu.m
+END
+full_each4_sum3_gpu.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/GPUmat/full_each4_sum3_gpu.m
+END
+test_gpu_conv2.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/GPUmat/test_gpu_conv2.m
+END
+valid_each3_each4_gpu.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/GPUmat/valid_each3_each4_gpu.m
+END
+gpu_conv2.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/GPUmat/gpu_conv2.m
+END

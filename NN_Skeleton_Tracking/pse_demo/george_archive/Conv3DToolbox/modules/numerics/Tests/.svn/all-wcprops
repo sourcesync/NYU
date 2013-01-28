@@ -1,0 +1,791 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests
+END
+test_acos.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_acos.m
+END
+comp_repmat1.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_repmat1.m
+END
+test_GPUimag.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUimag.m
+END
+test_cosh.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_cosh.m
+END
+test_acosh.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_acosh.m
+END
+test_eq.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_eq.m
+END
+test_GPUsqrt.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUsqrt.m
+END
+comp_ones2.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_ones2.m
+END
+test_GPUtanh.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUtanh.m
+END
+rand_plusminusone.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/rand_plusminusone.m
+END
+test_GPUge.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUge.m
+END
+test_memCpyHtoD.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_memCpyHtoD.m
+END
+test_or.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_or.m
+END
+test_ctranspose.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_ctranspose.m
+END
+test_tan.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_tan.m
+END
+test_cos.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_cos.m
+END
+test_power.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_power.m
+END
+test_GPUeye.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUeye.m
+END
+comp_slice2.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_slice2.m
+END
+test_sinh.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_sinh.m
+END
+test_asinh.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_asinh.m
+END
+test_abs.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_abs.m
+END
+test_ceil.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_ceil.m
+END
+test_plus.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_plus.m
+END
+comp_memCpyDtoD.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_memCpyDtoD.m
+END
+comp_repmat2.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_repmat2.m
+END
+test_GPUfloor.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUfloor.m
+END
+test_mtimes.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_mtimes.m
+END
+test_GPUatan.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUatan.m
+END
+test_GPUacos.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUacos.m
+END
+test_GPUround.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUround.m
+END
+comp_ones3.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_ones3.m
+END
+test_GPUcosh.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUcosh.m
+END
+comp_GPUeye.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_GPUeye.m
+END
+test_GPUeq.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUeq.m
+END
+test_eye.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_eye.m
+END
+test_subsasgn.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_subsasgn.m
+END
+test_GPUldivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUldivide.m
+END
+test_GPUor.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUor.m
+END
+test_GPUtimes.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUtimes.m
+END
+test_GPUctranspose.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUctranspose.m
+END
+test_GPUlog.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUlog.m
+END
+test_GPUlog10.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUlog10.m
+END
+test_slice.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_slice.m
+END
+comp_slice3.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_slice3.m
+END
+test_ne.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_ne.m
+END
+test_GPUrdivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUrdivide.m
+END
+test_log2.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_log2.m
+END
+myexp.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/myexp.m
+END
+test_GPUsin.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUsin.m
+END
+test_GPUsinh.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUsinh.m
+END
+test_lt.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_lt.m
+END
+test_floor.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_floor.m
+END
+test_round.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_round.m
+END
+test_repmat.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_repmat.m
+END
+test_GPUceil.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUceil.m
+END
+test_asin.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_asin.m
+END
+test_GPUplus.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUplus.m
+END
+rand_acosh.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/rand_acosh.m
+END
+test_GPUfill.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUfill.m
+END
+test_ones.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_ones.m
+END
+test_memCpyDtoD.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_memCpyDtoD.m
+END
+comp_ones4.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_ones4.m
+END
+test_GPUatanh.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUatanh.m
+END
+test_GPUexp.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUexp.m
+END
+test_subsref.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_subsref.m
+END
+test_gt.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_gt.m
+END
+test_colon.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_colon.m
+END
+test_GPUmtimes.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUmtimes.m
+END
+defaultConfig.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/defaultConfig.m
+END
+test_ldivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_ldivide.m
+END
+test_uminus.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_uminus.m
+END
+test_times.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_times.m
+END
+test_log.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_log.m
+END
+comp_GPUfill.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_GPUfill.m
+END
+test_log10.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_log10.m
+END
+test_real.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_real.m
+END
+test_rdivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_rdivide.m
+END
+test_sin.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_sin.m
+END
+test_conj.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_conj.m
+END
+comp_GPUzeros.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_GPUzeros.m
+END
+test_GPUlog1p.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUlog1p.m
+END
+test_le.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_le.m
+END
+comp_slice4.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_slice4.m
+END
+test_GPUminus.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUminus.m
+END
+comp_colon2.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_colon2.m
+END
+test_GPUnot.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUnot.m
+END
+test_imag.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_imag.m
+END
+test_GPUzeros.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUzeros.m
+END
+test_GPUand.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUand.m
+END
+test_GPUne.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUne.m
+END
+test_transpose.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_transpose.m
+END
+comp_tmp.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_tmp.m
+END
+test_GPUlog2.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUlog2.m
+END
+test_permute.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_permute.m
+END
+test_assign.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_assign.m
+END
+comp_memCpyHtoD.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_memCpyHtoD.m
+END
+test_sqrt.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_sqrt.m
+END
+test_tanh.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_tanh.m
+END
+test_ge.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_ge.m
+END
+test_atanh.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_atanh.m
+END
+test_GPUlt.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUlt.m
+END
+test_exp.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_exp.m
+END
+comp_permute.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_permute.m
+END
+comp_ones1.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_ones1.m
+END
+test_GPUasin.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUasin.m
+END
+comp_ones5.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_ones5.m
+END
+test_GPUacosh.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUacosh.m
+END
+test_GPUones.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUones.m
+END
+test_log1p.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_log1p.m
+END
+test_GPUgt.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUgt.m
+END
+checkfun.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/checkfun.m
+END
+test_minus.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_minus.m
+END
+test_GPUuminus.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUuminus.m
+END
+test_GPUtan.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUtan.m
+END
+test_GPUreal.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUreal.m
+END
+comp_slice1.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_slice1.m
+END
+comp_GPUones.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_GPUones.m
+END
+test_not.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_not.m
+END
+test_GPUcos.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUcos.m
+END
+comp_eye.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_eye.m
+END
+test_and.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_and.m
+END
+test_zeros.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_zeros.m
+END
+comp_assign.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_assign.m
+END
+test_GPUconj.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUconj.m
+END
+test_GPUpower.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUpower.m
+END
+comp_colon3.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/comp_colon3.m
+END
+test_GPUle.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUle.m
+END
+test_GPUasinh.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUasinh.m
+END
+test_GPUabs.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_GPUabs.m
+END
+test_atan.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/numerics/Tests/test_atan.m
+END

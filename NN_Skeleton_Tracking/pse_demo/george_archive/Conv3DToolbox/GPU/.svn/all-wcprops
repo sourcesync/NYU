@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU
+END
+gwhos.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gwhos.m
+END
+moveAll2CPU.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/moveAll2CPU.m
+END
+startGPU.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/startGPU.m
+END
+GPUNmT.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/GPUNmT.m
+END
+GPUTmN.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/GPUTmN.m
+END
+gpu_kmeans2.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/gpu_kmeans2.m
+END
+startGPU.m.last
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/startGPU.m.last
+END
+mySetSize.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/mySetSize.m
+END
+moveAll2GPU.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/moveAll2GPU.m
+END
+startGPU.m.matt1
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/startGPU.m.matt1
+END
+test_jacket.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/GPU/test_jacket.m
+END

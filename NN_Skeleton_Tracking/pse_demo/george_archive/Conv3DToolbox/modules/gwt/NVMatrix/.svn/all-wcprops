@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix
+END
+nvMax3.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax3.mexa64
+END
+nvMax2.cu
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax2.cu
+END
+nvMax3.cu
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax3.cu
+END
+nvMax.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax.m
+END
+testnvMax.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/testnvMax.m
+END
+nvmatrix_kernel.cuh
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmatrix_kernel.cuh
+END
+nvmatrix.cuh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmatrix.cuh
+END
+nvMax.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax.mexa64
+END
+nvmex
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmex
+END
+nvMax.cu
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax.cu
+END
+nvopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvopts.sh
+END
+cuNVMatrix.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/cuNVMatrix.mexa64
+END
+cuNVMatrix.cu
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/cuNVMatrix.cu
+END
+testnvMax2.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/testnvMax2.m
+END
+testnvMax3.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/testnvMax3.m
+END
+make.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/make.m
+END
+nvmatrix_kernel.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmatrix_kernel.mexa64
+END
+nvmatrix.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmatrix.mexa64
+END
+nvmatrix_kernel.cu
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmatrix_kernel.cu
+END
+nvmatrix.cu
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvmatrix.cu
+END
+nvMax2.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/gwt/NVMatrix/nvMax2.mexa64
+END

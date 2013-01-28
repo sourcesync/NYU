@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils
+END
+makeinstall.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/makeinstall.m
+END
+startMemoryCheck.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/startMemoryCheck.m
+END
+GPUtestPrint.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/GPUtestPrint.m
+END
+compareArrays.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/compareArrays.m
+END
+compareCPUGPU.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/compareCPUGPU.m
+END
+makecuda.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/makecuda.m
+END
+nvidiasettings.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/nvidiasettings.m
+END
+stopMemoryCheck.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/stopMemoryCheck.m
+END
+GPUtestLOG.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/GPUtestLOG.m
+END
+make.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/make.m
+END
+GPUtestInit.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/GPUtestInit.m
+END
+makecpp.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/modules/utils/makecpp.m
+END

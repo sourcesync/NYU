@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/Test
+END
+conv_test.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/Test/conv_test.m
+END
+test_gpu_conv2.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/Test/test_gpu_conv2.m
+END
+test_sparse_conv2.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/greendot/!svn/ver/4579/basketball/branches/side-by-side-george/gpu/Conv3DToolbox/IPPConvsToolbox/Test/test_sparse_conv2.m
+END
