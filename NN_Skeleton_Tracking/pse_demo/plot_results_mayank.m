@@ -1,3 +1,8 @@
+
+addpath( genpath( './george_extras') )
+addpath( './util')
+GPUstart
+
 % Plot nearest neighbour matches for some of the validation examples
 % This works for either convolutional model, regardless of objective used
 % (i.e. works for conv_ncareg or conv_drlim)
@@ -5,6 +10,9 @@
 cam = 'cam2';
 % loadfile = ['../data/testdata/testdata_' cam '.mat'];
 % load (loadfile);
+
+loadfile = ['results/conv_ncar_mayank_cam2/conv_ncar_snapshot_batch100.mat']
+load( loadfile );
  
 %Load the original data (needed for visualization)
 if ~exist('traindata','var') || ~exist('validdata','var')

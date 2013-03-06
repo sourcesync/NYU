@@ -1,0 +1,55 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> 
+GPUmat, Copyright (C) 2012  GP-you Group (http://gp-you.org)
+
+By using GPUmat, you accept all the terms and conditions
+specified in the license.txt file.
+
+Please send any suggestion or bug report to gp-you@gp-you.org.
+
+Starting GPU
+- GPUmat version: 0.280
+- Required CUDA version: 4.2
+There are 2 devices supporting CUDA
+CUDA Driver Version:                           5.0
+CUDA Runtime Version:                          4.20
+
+Device 0: "GeForce GTX 580"
+  CUDA Capability Major revision number:         2
+  CUDA Capability Minor revision number:         0
+  Total amount of global memory:                 3220897792 bytes
+
+Device 1: "GeForce GTX 580"
+  CUDA Capability Major revision number:         2
+  CUDA Capability Minor revision number:         0
+  Total amount of global memory:                 3220897792 bytes
+  - Your system has multiple GPUs installed
+    -> Please specify the GPU device number to use [0-1]:   - CUDA compute capability 2.0
+...done
+- Loading module EXAMPLES_CODEOPT
+- Loading module EXAMPLES_NUMERICS
+  -> numerics20.cubin
+- Loading module CONV
+  -> conv20.cubin
+- Loading module CONV2
+  -> conv220.cubin
+- Loading module CONV3
+  -> conv320.cubin
+- Loading module MISC
+  -> misc20.cubin
+- Loading module SUBSAMPLE
+  -> subsample20.cubin
+- Loading module NUMERICS
+  -> numerics20.cubin
+- Loading module RAND
+>> >> >> >> >> >> Working on cam2
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> cp: overwrite `results/conv_ncar_mayank_cam2/conv_ncar_mayank.m'? 

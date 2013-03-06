@@ -60,7 +60,7 @@ end
 
 %now copy this file to the path, so we have a record of the experiment
 if isunix
-  copystring = sprintf('cp -f ./conv_ncar_mayank.m %s',snapshot_path);
+  copystring = sprintf('cp ./conv_ncar_mayank.m %s',snapshot_path);
   assert(system(copystring)==0);
 end
 

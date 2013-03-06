@@ -8,7 +8,9 @@ setenv KMP_DUPLICATE_LIB_OK TRUE
 
 #nohup /opt/matlab/bin/matlab -nodisplay < demo_conv_ncar.m
 
+echo 'locking gpu...'
 python gpu_lock.py --id 1
-nohup /opt/matlab/bin/matlab < conv_ncar_mayank.m > TRAIN.LOG.txt
-
+echo 'after lock, running matlab...'
+/opt/matlab/bin/matlab -nodisplay -r plot_results_mayank -i
+echo 'matlab launched...'
 
