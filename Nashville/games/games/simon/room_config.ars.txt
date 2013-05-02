@@ -1,0 +1,5 @@
+# xmin xmax ymin ymax sqrt(numpartitions) pantilt nnet-paramfile instrument
+-4000 4000 0 4000 2 1 ../../pantilt/learning/tf2dlinear1_1.pkl 103
+#-4000 4000 -4000 0 2 2 ../../pantilt/learning/tf2dlinear1_1.pkl 9
+#-5000 0 -6000 1000 2 1 ../../pantilt/learning/ars2dlinear1.pkl 103
+#0 5000 -6000 1000 3 2 ../../pantilt/learning/ars2dlinear2.pkl 9

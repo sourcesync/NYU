@@ -1,0 +1,86 @@
+crowd2cloud Python demo: Possession
+http://www.crowd2cloud.com
+Graham Taylor, http://www.cs.nyu.edu/~gwtaylor
+
+Possession is a game between two teams- each of who control a "side" of the room. When the game starts, each team tries to keep a series of Vicon objects (e.g. balls) on the other team's side.
+The game, by default, runs for 30 seconds. At the end of the game, the team in possession of the balls for the least amount of time is the winner.
+
+*****INTRODUCTION*****
+
+Possession requires that you have Python 2.6 or later and the following python modules installed:
+
+numpy >=1.4.1
+http://numpy.scipy.org/
+
+matplotlib >=1.0.0
+http://matplotlib.sourceforge.net/
+
+pygame >=1.9.1
+http://www.pygame.org/
+
+We have written the game to be cross-platform, but we have only tested on Mac OSX (Python and all modules installed through MacPorts).
+
+All parameters are passed through command-line options. To see the list of options (and a description of each), try:
+
+>>python possession.py -h
+
+*****QUICK START*****
+
+By default, the game assumes that you have a Vicon mocap system on a LAN, and a proxy server which broadcasts objects as json.
+MOST LIKELY YOU DO NOT HAVE A VICON SYSTEM ON YOUR LAN AND THE GAME WILL HANG, WAITING FOR VICON.
+
+Therefore, you should run the game in "Simulation mode" where the Vicon data is read from a file. We have supplied a demo file possession_sample.txt.
+If you supply a text file name through the -f option, Possession will run in "Simulation mode". For example:
+
+>>python possession.py -x-5500 -X5500 -y-6000 -Y1000   -oGouldBB01 -oGouldBB02 -oGouldBB03 -fpossession_sample.txt -l800
+
+-x,-X and -y,-Y define the room x and y limits. This will depend on your environment, and the numbers above are appropriate for the text file we have supplied.
+
+We supply a list of objects that are part of the game, each name preceeded by a -o. The object names are defined by the vicon system (and are present in the sample simulation file). 
+In this example, we specify three balls, named GouldBB01,GouldBB02, and GouldBB03. Possession treats each ball equally.
+
+-fpossession_sample.txt instructs the game to run in "Simulation mode" (i.e. not live Vicon mode) and read data from possession_sample.txt
+
+-l800 (as in lower-case L) instructs the game to start reading from line 800. This is not necessary, but line 800 is where the action starts happening, so we save you the wait!
+
+
+*****VICON DATA*****
+
+Vicon returns the x,y,z position (translation) of each object. Possession is a 2D game and thus ignores the z (vertical) dimension.
+You can see how the Vicon data is encoded by exploring the dictionary "obj" returned by get_now() or get_now_file().
+
+obj contains a list of objects: obj['objs'] each element of this list is itself a dictionary, representing a Vicon object. The translation is stored in the ['t'] field. 
+This is what is used for the game.
+
+*****USAGE AND COMMAND-LINE OPTIONS*****
+
+Usage: possession.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -x XMIN, --xmin=XMIN  x min
+  -X XMAX, --xmax=XMAX  x max
+  -y YMIN, --ymin=YMIN  y min
+  -Y YMAX, --ymax=YMAX  y max
+  -f VICON_FILE, --file=VICON_FILE
+                        Vicon file
+  -l LINE, --line=LINE  Read ahead this many lines in Vicon file (default-0)
+  -o OBJECTS, --object=OBJECTS
+                        Add Vicon object
+  -a AXIS, --game-axis=AXIS
+                        Game axis: 0 (Vicon x) or 1 (Vicon y) (default=0)
+  -t GAME_TIME, --game-time=GAME_TIME
+                        Game time in seconds (default=30)
+  -w, --visualize-switch-xy
+                        Switch xy in visualization (default False)
+  --figure-width=WIDTH  Figure width: default 1024
+  --figure-height=HEIGHT
+                        Figure height: default 768
+  -d, --debug           Debug mode - extra text (default=False)
+
+*****GAME PLAY*****
+
+Pressing 'g' starts the game and timer. The game will run for 30 seconds (by default) and display the scores as the game runs. 
+At the end of a game, pressing 'g' will restart the game.
+
+At any time pressing 'ESC' will quit.

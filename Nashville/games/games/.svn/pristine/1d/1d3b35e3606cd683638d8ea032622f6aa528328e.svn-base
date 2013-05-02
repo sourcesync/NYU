@@ -1,0 +1,69 @@
+ARS - TabakFabrik
+
+#display ip cams
+python displaycam-ars.py -cipcam4 -cipcam3 -cipcam14
+
+#calibration
+%run extrinsics_vicon.py -ocalib_cb_gwt -nipcam3 -x1280 -y800 -d
+
+%run test_pantilt -ocalibwand -mlearning/tf2dlinear1_1.pkl -n -d1
+%run data_collection.py -ocalibwand -n -d1
+
+#reveal
+python uncover.py -cipcam3 -cipcam4 -oFINALWW_BB01 -oFINALWW_BB03 -t60 -n1
+
+#basketball
+python game.py -cipcam3 -cipcam4 -oTF_BB01 -oTF_MB03 -t90 -n1
+
+#combo 
+python combo.py -cipcam3 -cipcam4 -cipcam5 -oFINALWW_BB01 -oFINALWW_BB03 -t90 -n1 -fsave/vicon.txt
+python combo.py -cipcam3  -oTF_Green_MB
+
+#posession tracked
+python possession.py -x-5500 -X5500 -y-6000 -Y1000   -oGouldBB01 -oGouldBB02 -oGouldBB03 -fpossession_sample.txt -l800
+python possession.py -x-6000 -X6000 -y-6000 -Y6000  -oTF_BB01 -oTF_MB03
+
+#possession raw
+python  possession-raw.py -x-5500 -X5500 -y-6000 -Y1000 -fpossession_sample-raw.txt
+python  possession-raw.py -x-6000 -X6000 -y-6000 -Y6000 -t30
+
+#simon
+%run simple_simon.py -rroom_config.ars.txt -ocalibwand
+
+
+WWH
+
+%run test_pantilt_3d.py -oGouldBB02
+
+ 
+
+%run simon.py -x-12000 -X12000 -y-6000 -Y1000 -oFINALWW_BB01 -k1 -p2 -t30 -v1000
+%run simon.py -x-10000 -X10000 -y-5500 -Y1000 -oFINALWW_BB01 -k1 -p3 -t30 -v1000
+# crowd version - always length 1
+%run simon.py -x-8000 -X8000 -y-5500 -Y1000 -oFINALWW_BB01 -k1 -p2 -t30 -c -v1000
+%run simon.py -x-8000 -X8000 -y-5500 -Y1000 -oFINALWW_BB01 -k1 -p3 -t30 -c -v1000 
+
+# x and vertical in room
+python vicon_dasher.py -oGouldBB01 -x1 -y-3 -z2 -q -l10 -X4000 -Y4000
+
+
+# xy plane in room
+python vicon_dasher.py -oGouldBB01 -x1 -y-2 -z3 -q -l5 -X8000 -Y8000 -e -V1.005
+
+
+#basketball 
+#fake
+%run game.py -cipcam5  -oFINALWW_BB01 -oFINALWW_BB03 -r60 -f/Users/gwtaylor/Desktop/possession/vicon.txt -l800 -n2  -k -t10
+#real
+python game.py -cipcam3 -cipcam4 -cipcam5 -oFINALWW_BB01 -oFINALWW_BB03 -t90 -n2
+
+#calibration
+%run extrinsics_vicon.py -ocalibrationchessww -nipcam3 -d -x1280 -y800
+
+%run  possession.py -x-5500 -X5500 -y-6000 -Y1000  -oFINALWW_BB01 -oFINALWW_BB03
+
+#possession raw
+python  possession-raw.py -x-5500 -X5500 -y-6000 -Y1000 -t60
+
+
+

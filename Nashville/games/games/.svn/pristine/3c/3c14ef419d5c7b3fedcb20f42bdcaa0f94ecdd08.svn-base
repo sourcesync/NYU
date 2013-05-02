@@ -1,0 +1,9 @@
+syntax:glob
+*.pyc
+*.kpf
+.DS_Store
+tags
+*.orig
+*.swp
+build
+dist

@@ -9,7 +9,7 @@ import org.json.*;
 
 BufferedReader br;
 color col;
-String fname = "/Users/gwilliams/Projects/NYU/sourcecontrol/NYU/Nashville/Processing/Simulator/Data/one_ball_z_0.05.txt";
+String fname = "/Users/gwilliams/Projects/NYU/sourcecontrol/NYU/Nashville/Processing/Simulator/Data/three_balls_z_0.05.txt";
 void setup() 
 {
   size(640,360);
