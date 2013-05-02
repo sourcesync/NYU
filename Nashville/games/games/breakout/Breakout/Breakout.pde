@@ -13,8 +13,10 @@
 
 import processing.opengl.*;
 import org.json.*;
+import ddf.minim.*;
+import fullscreen.*;
 
-
+Minim minim;
 ViconData vd;
 Board board;
 
@@ -22,24 +24,34 @@ boolean simulated = false;
 
 int windowWidth = 1920;
 int windowHeight = 1080;
+int ballRadius = 50;
+float rescale = 0.85; //gw.5;
+
 
 int lastMouseX = -1;
 int lastMouseY = -1;
-
-float rescale = .5;
-
 int skipAmount = 300;
-
 boolean paused;
 boolean cursorShowing = true;
-
-
 float[][] locations;
 
-
+int frame = 0;
 
 void setup() {
 
+  FullScreen fs = new FullScreen(this); // Create the fullscreen object
+  fs.enter(); // enter fullscreen mode
+  windowWidth = displayWidth;
+  windowHeight = displayHeight;
+  width = windowWidth;
+  height = windowHeight;
+  System.out.println( windowWidth + " " + windowHeight );
+  //exit();
+
+  minim = new Minim(this);
+
+  ballRadius *= rescale;
+  
   windowWidth = (int)(windowWidth * rescale);
   windowHeight = (int)(windowHeight * rescale);
   
@@ -62,9 +74,13 @@ void draw() {
 
   background(0,0,0);
   
-  board.checkBricks(locations);
+  board.checkBricks(locations, ballRadius );
   board.draw();
   drawBalls();
+  
+  frame++;
+  //save("frame_" + frame + ".png")
+  
 }
 
 
@@ -73,15 +89,17 @@ void drawBalls() {
   stroke(255, 0, 255, 255);
   fill(255, 0, 255, 200);
   
+  if (board.superMode) {
+    fill(255,255,255,200); 
+  }
+  
   for (int i = 0; i < locations.length; i++) {
       
       float x1 = (locations[i][0] + 1) / 2;
       float x = x1 * windowWidth;
-      // gw - reverse
       float y = locations[i][1] * windowHeight;
-      //float y = windowHeight - locations[i][1] * windowHeight;
-      // gw
-      ellipse(x,y,50 * rescale, 50 * rescale);
+    
+      ellipse(x,y,ballRadius * 2, ballRadius * 2);
 
   }
 }
@@ -90,6 +108,7 @@ void drawBalls() {
 void getData() {
     
    String newData = vd.getData();
+   System.out.println( "data " + newData );
    
    try {
      
@@ -97,15 +116,12 @@ void getData() {
       JSONArray objs = vp.getJSONArray("objs");
       int numberLocations = objs.length();
       
-      if (lastMouseX != -1 && lastMouseY != -1) 
-      {
+      if (lastMouseX != -1 && lastMouseY != -1) {
         locations = new float[numberLocations+1][3];
         locations[numberLocations][0] = ((float)lastMouseX / windowWidth) * 2 - 1;
         locations[numberLocations][1] = (float)lastMouseY / windowHeight;
         locations[numberLocations][2] = 1;
-      } 
-      else 
-      {
+      } else {
         locations = new float[numberLocations][3];
       }
       
@@ -120,7 +136,6 @@ void getData() {
         //gw - mirror y
         locations[i][1] = 1.0 - locations[i][1];
         //gw
-        
       }
 
     }
@@ -158,6 +173,18 @@ void keyPressed() {
 
   if (key == ' ') {
     board.next();
+  }
+  
+  if (key == '+') {
+    ballRadius += 5;
+  }
+
+  if (key == '-' && ballRadius > 10) {
+    ballRadius -= 5;
+  }
+
+  if (key == 's') {
+    board.superMode = ! board.superMode;
   }
 
 }

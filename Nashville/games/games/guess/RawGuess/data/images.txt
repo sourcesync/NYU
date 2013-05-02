@@ -1,3 +1,1 @@
-pixel.gif, 
-chappo.jpg,Chappo
-eisenberg.jpeg,Jesse Eisenberg
+MikeCoyle_Medtronic.JPG,Mike Coyle

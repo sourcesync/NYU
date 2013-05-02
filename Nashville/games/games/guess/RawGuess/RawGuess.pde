@@ -14,6 +14,7 @@
 import processing.opengl.*;
 import org.json.*;
 import ddf.minim.*;
+import fullscreen.*;
 
 String master = null;
 
@@ -85,6 +86,8 @@ void loadImages() {
   images = new PImage[numberImages];
   answers = new String[numberImages];
   
+  System.out.println( images.length + " " + answers.length );
+  
   for (int i = 0; i < numberImages; i++) {
     String[] fields = split(imageStrings[i],",");
     images[i] = loadImage("guess/" + fields[0]);
@@ -98,6 +101,14 @@ void loadImages() {
 void setup() {
 
 
+  //FullScreen fs = new FullScreen(this); // Create the fullscreen object
+  //fs.enter(); // enter fullscreen mode
+  //windowWidth = displayWidth;
+  //windowHeight = displayHeight;
+  //width = windowWidth;
+  //height = windowHeight;
+  //System.out.println( windowWidth + " " + windowHeight );
+  
   loadImages();
 
   noCursor();

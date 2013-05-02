@@ -3,26 +3,28 @@
  */
 
 
-
 class Brick {
-
-  int x;
-  int y;
-  int w;
-  int h;
-  int hue;
   int state;
+  // States
+  // 0 = destroyed
+  // 1 = intact
+  
+  int i, j, x, y, w, h;
+  int hue;
+  int pad = 2;
+  Boolean boundary = false;
   PImage bg;
    
-  Brick(int x, int y, int w, int h, int hue) {
-    this.x = x;
-    this.y = y;
-    this.w = w;
-    this.h = h;
+  Brick(int i, int j, int w, int h, int hue) {
+    this.i = i;
+    this.j = j;
+    this.x = i * w;
+    this.y = j * h;
+    this.w = w - pad;
+    this.h = h - pad;
     this.hue = hue;
     this.state = 1;
   }
-
 
   void clear() {
      this.state = 1;
@@ -33,15 +35,20 @@ class Brick {
   }
   
 
-  void check(int x, int y) {
-     
+  Boolean check(int x, int y, float r) {
+        
     float deltaX = abs((this.x + (this.w / 2)) - x);
     float deltaY = abs((this.y + (this.h / 2)) - y);
-        
-    if (deltaX < 40 && deltaY < 20) {
-      this.state = 0; 
-    }
+   
+    if (deltaX > (this.w/2 + r)) { return false; }
+    if (deltaY > (this.h/2 + r)) { return false; }
     
+    //cornerDistance_sq = (deltaX - this.w/2)^2 +
+    //                    (deltaY - this.h/2)^2;
+    //if (cornerDistance_sq > (circle.r^2)) return false;
+
+    this.state = 0;
+    return true;
   }
 
   void draw() {
@@ -51,6 +58,11 @@ class Brick {
     }
     
     stroke(255, 0, 255, 128);
+    
+    if (this.boundary) {
+      stroke(255, 255, 255, 255); 
+    }
+    
     if (this.state == 1) {
       fill(this.hue, 255, 255, 100);
     } else {

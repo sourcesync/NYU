@@ -35,7 +35,7 @@ class ViconData {
     meanXYZ.div(2);    
 
     if (simulated) {
-      lines = loadStrings("one.txt");
+      lines = loadStrings("three.txt");
       numberLines = lines.length;
     } 
     else {
