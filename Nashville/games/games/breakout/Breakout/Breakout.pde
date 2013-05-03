@@ -4,12 +4,14 @@
  *   GAME CONTROLS
  *
  *   [spacebar]  Start game or skip to next level
+ *   f/F         Increase/decrease ball floor offset
  *   h/H         Increase/decrease ball height scaling
  *   w/W         Increase/decrease ball width scaling
+ *   0           Reset floor, scaling
  *   +/-         Increase/decrease ball diameter
  *   s           Enter/exit super mode.
  *   l           Enter/exit large mode.
- *   drag mouse  Adds an extra ball for 'cheating'
+ *   drag mouse  Adds an extra ball for cheating
  */
 
 import processing.opengl.*;
@@ -40,6 +42,7 @@ float[][] locations;
 boolean large_mode = false;
 float height_factor = 1.0;
 float width_factor = 1.0;
+float floor_offset = 0.0;
 
 int frame = 0;
 
@@ -190,7 +193,7 @@ void getData() {
         locations[i][2] =(float)xyz.getDouble(2); 
         
         //gw - mirror y and possibly scale...
-        locations[i][1] = (1.0 - locations[i][1]*height_factor);
+        locations[i][1] = (1.0 - locations[i][1]*height_factor) - floor_offset;
         //gw
         
         locations[i][0] = (locations[i][0]*width_factor);
@@ -265,6 +268,22 @@ void keyPressed() {
   if (key=='W')
   {
     width_factor = width_factor * 0.98;
+  }
+    
+  if (key=='f')
+  {
+    floor_offset = floor_offset += .01;
+  }
+  if (key=='F')
+  {
+    floor_offset = floor_offset -= .01;
+  }
+  
+  if (key=='0')
+  {
+    width_factor = 1;
+    height_factor = 1;
+    floor_offset = 0; 
   }
   
 }
