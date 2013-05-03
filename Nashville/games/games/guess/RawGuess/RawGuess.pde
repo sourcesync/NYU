@@ -19,7 +19,7 @@ import fullscreen.*;
 String master = null;
 
 // Top level globals you might want to change
-boolean simulated = false;
+boolean simulated = true;
 
 
 int windowWidth = 1280;
@@ -77,6 +77,8 @@ String[] answers;
 AudioSample win;
 Minim minim;
 
+float height_factor = 1.0f;
+
 void loadImages() {
 
   String[] imageStrings = loadStrings("images.txt");
@@ -108,6 +110,9 @@ void setup() {
   //width = windowWidth;
   //height = windowHeight;
   //System.out.println( windowWidth + " " + windowHeight );
+  windowWidth = displayWidth;
+  windowHeight = displayHeight;
+  
   
   loadImages();
 
@@ -458,6 +463,27 @@ void keyPressed() {
     println("Dolly: (" + dolly.x + "," + dolly.y + ")");
     println("Rotate: (" + deltaMouseX + "," + deltaMouseY + ")");
   }
+  
+  //gw
+  if (key == 'l')
+  {
+      ss.large_mode = !ss.large_mode;
+  }   
+  
+  
+  if (key=='h')
+  {
+    height_factor = height_factor * 1.02;
+    ss.height_factor = height_factor;
+  }
+  if (key=='H')
+  {
+    height_factor = height_factor * 0.98;
+    ss.height_factor = height_factor;
+  }
+  
+  
+  //gw
 }
 
 

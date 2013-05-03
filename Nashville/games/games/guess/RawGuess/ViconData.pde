@@ -39,7 +39,7 @@ class ViconData {
     this.slave = slave;
 
     if (simulated) {
-      lines = loadStrings("hudson.txt");
+      lines = loadStrings("three.txt");
       numberLines = lines.length;
     } 
     else {

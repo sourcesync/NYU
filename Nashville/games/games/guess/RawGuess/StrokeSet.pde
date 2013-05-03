@@ -3,7 +3,7 @@
  */
 
 import org.json.*;
-
+import java.util.*;
 
 class StrokeSet {
 
@@ -52,6 +52,9 @@ class StrokeSet {
   float rx = 0;
   float ry = 0;
   boolean tailMode = true;
+  
+  boolean large_mode = false;
+  float height_factor = 1.0;
 
   StrokeSet(PApplet parent) {
     objectLookup = new HashMap();
@@ -75,14 +78,7 @@ class StrokeSet {
 
  void draw2() {
 
-
-
-
-
-
     stroke(255);
-
-
 
     stroke(weight);
 
@@ -210,6 +206,46 @@ class StrokeSet {
     
   }
 
+   JSONArray getmax( JSONArray objs )
+   {
+    try
+    {
+    if ( objs.length() > 0 )
+    {
+      int max_idx = 0;
+      float max_val = 0.0;
+      for (int i=0;i<objs.length();i++)
+      {
+        JSONArray _xyz = objs.getJSONArray(i);
+        float val = (float)_xyz.getDouble(2);
+        if ( i==0 ) max_val = val;
+        else if ( val >= max_val ) 
+          { max_val = val; max_idx = i; }
+      }
+      
+      JSONArray maxobj = objs.getJSONArray(max_idx);
+      float _x = (float)maxobj.getDouble(0);
+      float _y = (float)maxobj.getDouble(1);
+      float _z = (float)maxobj.getDouble(2);
+      //java.lang.String str = "[ " + _x + "," + _y + "," + _z + " ]";
+      java.util.Collection col = new ArrayList<Double>();
+      col.add(_x);col.add(_y);col.add(_z);
+      JSONArray newobjs = new JSONArray();    
+      newobjs.put( 0, col );
+      return newobjs;
+    }
+    else
+    {
+      return null;
+    }
+    }
+    catch (JSONException e) 
+    { 
+      println (e.toString());
+      return null;
+    }
+   }
+ 
 
 
   void addStrokesFromJSON(String message) {
@@ -229,6 +265,7 @@ class StrokeSet {
     }
   }
 
+  
 
   
     // This function is a bit ugly. Strokes are kept in simple arrays
@@ -237,7 +274,13 @@ class StrokeSet {
   // starts so they can been drawn in that order.
   void addLoopingStrokes(JSONArray objs) {
     
-
+    //  gw
+    //  find max object if in Large mode...
+    if (large_mode)
+    {
+      objs = getmax(objs);
+      if (objs==null) return;
+    }
     
     int zCount = 0;
     float zAvg = 0;
@@ -277,11 +320,11 @@ class StrokeSet {
         }
 
     //gw
-        float xx = (float)xyz.getDouble(0) * 400.0;
+        float xx = (float)xyz.getDouble(0) * 800.0;
         //float yy = 0;//(float)xyz.getDouble(1);
         //float zz = (float)xyz.getDouble(2);
         float yy = 0;
-        float zz = (float)xyz.getDouble(1) * 400.0;
+        float zz = (float)xyz.getDouble(1) * 400.0 * height_factor;
      //gw
         
         //if (zz < 0) continue;

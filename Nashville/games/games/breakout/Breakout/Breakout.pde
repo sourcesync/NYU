@@ -20,7 +20,7 @@ Minim minim;
 ViconData vd;
 Board board;
 
-boolean simulated = false;
+boolean simulated = true;
 
 int windowWidth = 1920;
 int windowHeight = 1080;
@@ -34,6 +34,11 @@ int skipAmount = 300;
 boolean paused;
 boolean cursorShowing = true;
 float[][] locations;
+
+//gw
+boolean large_mode = false;
+float height_factor = 1.0;
+//gw
 
 int frame = 0;
 
@@ -104,6 +109,47 @@ void drawBalls() {
   }
 }
 
+   JSONArray getmax( JSONArray objs )
+   {
+    try
+    {
+    if ( objs.length() > 0 )
+    {
+      int max_idx = 0;
+      float max_val = 0.0;
+      for (int i=0;i<objs.length();i++)
+      {
+        JSONArray _xyz = objs.getJSONArray(i);
+        float val = (float)_xyz.getDouble(2);
+        if ( i==0 ) max_val = val;
+        else if ( val >= max_val ) 
+          { max_val = val; max_idx = i; }
+      }
+      
+      JSONArray maxobj = objs.getJSONArray(max_idx);
+      float _x = (float)maxobj.getDouble(0);
+      float _y = (float)maxobj.getDouble(1);
+      float _z = (float)maxobj.getDouble(2);
+      //java.lang.String str = "[ " + _x + "," + _y + "," + _z + " ]";
+      java.util.Collection col = new ArrayList<Double>();
+      col.add(_x);col.add(_y);col.add(_z);
+      JSONArray newobjs = new JSONArray();    
+      newobjs.put( 0, col );
+      return newobjs;
+    }
+    else
+    {
+      return null;
+    }
+    }
+    catch (JSONException e) 
+    { 
+      println (e.toString());
+      return null;
+    }
+   }
+ 
+
 
 void getData() {
     
@@ -114,6 +160,13 @@ void getData() {
      
       JSONObject vp = new JSONObject(newData);
       JSONArray objs = vp.getJSONArray("objs");
+      
+      if (large_mode)
+      {
+        objs = getmax(objs);
+        if (objs == null ) return;
+      }
+      
       int numberLocations = objs.length();
       
       if (lastMouseX != -1 && lastMouseY != -1) {
@@ -125,6 +178,8 @@ void getData() {
         locations = new float[numberLocations][3];
       }
       
+      
+      
       if (paused) return;
       for (int i=0; i<objs.length(); i++) 
       {       
@@ -133,8 +188,8 @@ void getData() {
         locations[i][1] =(float)xyz.getDouble(1);
         locations[i][2] =(float)xyz.getDouble(2); 
         
-        //gw - mirror y
-        locations[i][1] = 1.0 - locations[i][1];
+        //gw - mirror y and possibly scale...
+        locations[i][1] = (1.0 - locations[i][1]*height_factor);
         //gw
       }
 
@@ -187,6 +242,19 @@ void keyPressed() {
     board.superMode = ! board.superMode;
   }
 
+//gw
+  if (key=='l') {
+    large_mode = !large_mode;
+  }
+  if (key=='h')
+  {
+    height_factor = height_factor * 1.02;
+  }
+  if (key=='H')
+  {
+    height_factor = height_factor * 0.98;
+  }
+  //gw
 }
 
 
