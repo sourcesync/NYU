@@ -54,6 +54,9 @@ if not pygame.mixer: print 'Warning, sound disabled'
 # Game states
 (WAITING,GAMEON,GAMEDONE)=range(0,3) #like an Enum
 
+side_count = 0
+last_side_count = 0
+
 print 'cc'
 class Sounds:
     """Handles game sound effects."""
@@ -76,6 +79,9 @@ class Sounds:
         #sndfile = "%s/%s" % (self.snd_path,eval(sndtag))
         fullname = os.path.join(self.snd_path,wav)
 
+	if ( not os.path.exists( fullname ) ):
+		print "sound does not exist!"
+		
         try:
             sound = pygame.mixer.Sound(fullname)
         except pygame.error, message:
@@ -86,13 +92,17 @@ class Sounds:
 
 class Graphics:
     """Handles game graphics (currently through matplotlib)."""
-    
+ 
     def __init__(self,options):
         """Set up 2D plot given current object positions.
         
         Object positions are given in a numobjects x 2 numpy array
         
         """
+	global side_count, last_side_count
+	side_count = 0
+	last_side_count = 0
+
         self.options = options
         self.oldstyle = 0 # multicolour, oldstyle graphics
         self.options.scaling = 0 # scale markers based on area
@@ -207,12 +217,14 @@ class Graphics:
         #self.screen.blit(surf, (0,0))
         pygame.display.flip()
 
-
     def draw_markers(self,pos,area):
         #ISPIRO
         self.game_screen.blit(self.bg,(0,0))
         numobjects=pos.shape[0]
-        
+
+	global side_count, last_side_count
+	side_count = 0
+ 
         if self.oldstyle:
 
             facecolors = [cm.jet(x) for x in np.linspace(0,1,numobjects)]
@@ -237,6 +249,7 @@ class Graphics:
                 # now we use color 0 if ball is on pos side, else color 1
                 if pos[b,self.options.axis]>0:
                     color=0
+		    side_count += 1
                 else:
                     color=1
                 
@@ -635,6 +648,7 @@ class Game:
         """ Main game loop
         """
 
+	global side_count, last_side_count
 
         self.mode = WAITING
         self.graphics.set_caption("Possession: Press 'g' to start")
@@ -719,17 +733,17 @@ class Game:
             if self.mode==GAMEON:
                 s = self.sincelastupdate() # time since last update
 
-
                 for m in markers:
                     if m[self.options.axis]>0:
                         self.postime+=s
                     elif m[self.options.axis]<0:
                         self.negtime+=s
-                        
-                ## for b in self.balls:
-                ##     pos=b.get_pos()
-                ##     changed=b.changed(self.options.axis) # did it change sides?
-
+                
+		#gw        
+                #for m in markers:
+                #     pos=b.get_pos()
+                #     changed=b.changed(self.options.axis) # did it change sides?
+		#
                 ##     if pos[self.options.axis] > 0:
                 ##         if self.options.debug:
                 ##             print "%s + " % b.objectname
@@ -738,15 +752,18 @@ class Game:
                 ##         if self.options.debug:
                 ##             print "%s - " % b.objectname
                 ##         self.negtime += s
-
-                ##     # play sounds if ball changed sides
-                ##     if changed==1:
-                ##         # self.sounds.play("swoosh1")
-                ##         self.sounds.swoosh1_sound.play()
-                ##     elif changed==2:
-                ##         # self.sounds.play("swoosh2")
-                ##         self.sounds.swoosh2_sound.play()
-
+		#
+                # play sounds if ball changed sides
+                #     if changed==1:
+                #         # self.sounds.play("swoosh1")
+                #         self.sounds.swoosh1_sound.play()
+                #     elif changed==2:
+                #         # self.sounds.play("swoosh2")
+                #         self.sounds.swoosh2_sound.play()
+		#
+		if ( side_count != last_side_count ):	
+			self.sounds.swoosh2_sound.play()
+		last_side_count = side_count
 
                 self.update() #update clock
 

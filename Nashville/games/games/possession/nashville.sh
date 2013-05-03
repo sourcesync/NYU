@@ -12,5 +12,7 @@
 
 #/opt/local/bin/python2.7 possession-raw.py -p -y -1000 -Y 0 -x -1800 -X 1800
 
-#/opt/local/bin/python2.7 possession-raw.py -p -y -2000 -Y 2000 -f take3.txt
-/opt/local/bin/python2.7 possession-raw.py -p -y 0 -Y  1 -x -1 -X 1 -s --figure-width 1366 --figure-height 678
+#/opt/local/bin/python2.7 possession-raw.py -p -y -2000 -Y 2000 -f three.txt
+
+/opt/local/bin/python2.7 possession-raw.py -p -y 0 -Y  1 -x -1 -X 1 -s --figure-width 1366 --figure-height 600 -f three.txt
+#/opt/local/bin/python2.7 possession-raw.py -p -y 0 -Y  1 -x -1 -X 1 -s --figure-width 400 --figure-height 400
