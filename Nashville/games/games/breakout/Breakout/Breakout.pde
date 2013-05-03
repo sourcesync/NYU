@@ -1,14 +1,15 @@
 /**
- * Players draw by throwing balls around in a large
- * motion capture volume.
+ * Players break the bricks by throwing balls
  *
- * Dragging the mouse changes the camera angle. Option-dragging
- *  (Alt-dragging) changes the zoom. Shift-drag controls dolly.
+ *   GAME CONTROLS
  *
- * Press s to skip ahead in the simulated data. 
- * Press spacebar to clear the current strokes. 
- * Press c to show/hide the cursor.
- *
+ *   [spacebar]  Start game or skip to next level
+ *   h/H         Increase/decrease ball height scaling
+ *   w/W         Increase/decrease ball width scaling
+ *   +/-         Increase/decrease ball diameter
+ *   s           Enter/exit super mode.
+ *   l           Enter/exit large mode.
+ *   drag mouse  Adds an extra ball for 'cheating'
  */
 
 import processing.opengl.*;
@@ -24,7 +25,7 @@ boolean simulated = true;
 
 int windowWidth = 1920;
 int windowHeight = 1080;
-int ballRadius = 50;
+int ballRadius = 80;
 float rescale = 0.85; //gw.5;
 
 
@@ -32,13 +33,13 @@ int lastMouseX = -1;
 int lastMouseY = -1;
 int skipAmount = 300;
 boolean paused;
-boolean cursorShowing = true;
+boolean cursorShowing = false;
 float[][] locations;
 
 //gw
 boolean large_mode = false;
 float height_factor = 1.0;
-//gw
+float width_factor = 1.0;
 
 int frame = 0;
 
@@ -95,7 +96,7 @@ void drawBalls() {
   fill(255, 0, 255, 200);
   
   if (board.superMode) {
-    fill(255,255,255,200); 
+    fill(255,255,155,255); 
   }
   
   for (int i = 0; i < locations.length; i++) {
@@ -191,6 +192,9 @@ void getData() {
         //gw - mirror y and possibly scale...
         locations[i][1] = (1.0 - locations[i][1]*height_factor);
         //gw
+        
+        locations[i][0] = (locations[i][0]*width_factor);
+
       }
 
     }
@@ -216,9 +220,6 @@ void mouseReleased() {
 
 void keyPressed() {
 
-  if (key == 'p' && simulated) {
-    paused = !paused;
-  }
 
   if (key == 'c') {
     cursorShowing = !cursorShowing;
@@ -255,6 +256,17 @@ void keyPressed() {
     height_factor = height_factor * 0.98;
   }
   //gw
+  
+  
+  if (key=='w')
+  {
+    width_factor = width_factor * 1.02;
+  }
+  if (key=='W')
+  {
+    width_factor = width_factor * 0.98;
+  }
+  
 }
 
 

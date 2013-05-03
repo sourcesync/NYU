@@ -7,8 +7,7 @@ import java.io.*;
 
 class Board {
 
-
-  int rowHeight = height / 20;
+  int rowHeight = height / 15;
   int cols = 10;
   int rows = 5;
   Brick[][] grid;
@@ -17,21 +16,22 @@ class Board {
   PImage bg2;
   AudioSnippet hit;
   Boolean superMode = false;
- 
+  int loading = 0;
+  int loadTime = 50;
   ArrayList bricks;
   ArrayList logos;
   int logo = 0;
+  int frame = -1;
 
   Board() {
      hit = minim.loadSnippet("hit.wav");
      getLogoList();
-     bg1 = getBackground(0, width, rowHeight * rows);
-     initBricks();
   }
 
   
   void initBricks() {
-    frame = 0;
+    frame=0;
+    superMode = false;
     grid = new Brick[cols][rows];
     bricks = new ArrayList();
     int colWidth = width / cols;
@@ -49,7 +49,6 @@ class Board {
   
   }
   
-  
   void updateBoundary() {
      for (int i = 0; i < cols; i++) {
       for (int j = 0; j < rows; j++) {
@@ -62,13 +61,16 @@ class Board {
     }
   }
   
-  int frame = 0;
   
   void checkBricks(float[][] locations, float ballRadius) {
     
+    if (frame == -1) return;
+    
+    loading--;
+    if (loading > 0) return;
+    
     if (frame % 100 == 0) updateBoundary();
     frame++;
-    
     
     for (int b = 0; b < bricks.size(); b++) {
       Brick brick = (Brick)bricks.get(b);
@@ -93,23 +95,39 @@ class Board {
       }
       
     }
+    
+    if (bricks.size() == 0) {
+      next(); 
+    }
+    
   }
 
 
 
   void draw() {
+    if (frame == -1) return;
 
     for (int b = 0; b < bricks.size(); b++) {
       Brick brick = (Brick)bricks.get(b);
-      brick.draw(); 
+      
+      if (loading > 0) {
+        if (random(loadTime)/(brick.j+1) > loading) brick.draw();
+      } else {
+        brick.draw();       
+      }
     }
   }
   
   void next() {
+    loading=loadTime;
     logo++;
-    if (logo >= logos.size()) logo = 0;
+    if (logo >= logos.size()) {
+      logo = 0;
+      frame = -1;
+    } else {
     bg1 = getBackground(logo, width, rowHeight * rows);
     initBricks();
+    }
   }
   
   PImage getBackground(int n, int w, int h) {

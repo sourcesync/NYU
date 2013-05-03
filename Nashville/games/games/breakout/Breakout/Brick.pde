@@ -59,9 +59,11 @@ class Brick {
     
     stroke(255, 0, 255, 128);
     
-    if (this.boundary) {
-      stroke(255, 255, 255, 255); 
-    }
+    
+    //For debugging:
+    //if (this.boundary) {
+    //  stroke(255, 255, 255, 255); 
+    //}
     
     if (this.state == 1) {
       fill(this.hue, 255, 255, 100);
