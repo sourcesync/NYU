@@ -23,27 +23,19 @@ import json
 import numpy as np
 
 # Graphics stuff
-print 'aa'
-
 import pygame
 from pygame.locals import *
-
-print 'before mpl'
 import matplotlib
-print 'yes'
 matplotlib.use("Agg") # before importing pyplot
-print 'yes2'
 import matplotlib.backends.backend_agg as agg
-print 'm1'
 
 import matplotlib.pyplot as plt
-print 'a1'
 import matplotlib.cm as cm
-print 'a2'
 from matplotlib.patches import Wedge
-print 'a3'
 from matplotlib.collections import PatchCollection
-print 'after mpl'
+
+FUDGE = 50
+FUDGE2 = 0.05
 
 from optparse import OptionParser
 
@@ -56,6 +48,9 @@ if not pygame.mixer: print 'Warning, sound disabled'
 
 side_count = 0
 last_side_count = 0
+height_factor = 1.0
+width_factor = 1.0
+floor_offset = 0.0
 
 print 'cc'
 class Sounds:
@@ -113,6 +108,9 @@ class Graphics:
         # fig accepts size in inches
         # so divide desired pixel width, height by dpi to get inches
         w,h=(self.options.width/dpi,self.options.height/dpi)
+
+	print "wh=", w, h
+
         fig = plt.figure(1,figsize=(w,h),dpi=dpi)
         fig.clear()
 
@@ -204,7 +202,7 @@ class Graphics:
         self.game_screen = pygame.Surface((self.width, self.height))
 
         # If Vicon is waiting for raw data, want to have new background on screen
-        self.game_screen.blit(self.bg,(0,0))
+        self.game_screen.blit(self.bg,(FUDGE+0,0))
         self.screen.blit(self.game_screen,(0,0))
 
         self.set_caption("Possession: Waiting for Vicon")
@@ -219,7 +217,9 @@ class Graphics:
 
     def draw_markers(self,pos,area):
         #ISPIRO
-        self.game_screen.blit(self.bg,(0,0))
+	print dir(self.game_screen)
+	sys.exit(0)
+        self.game_screen.blit(self.bg,(FUDGE+0,0))
         numobjects=pos.shape[0]
 
 	global side_count, last_side_count
@@ -247,7 +247,8 @@ class Graphics:
                 #color used to just cycle
                 #color=b%numcolors
                 # now we use color 0 if ball is on pos side, else color 1
-                if pos[b,self.options.axis]>0:
+		print "pos->",pos[b, self.options.axis]
+                if pos[b,self.options.axis]>(FUDGE2*width_factor+0):
                     color=0
 		    side_count += 1
                 else:
@@ -550,6 +551,8 @@ class Game:
         self.graphics.countdown()
 
     def handle_events(self):
+	global width_factor, height_factor, floor_offset
+
         # Event handling through pygame
         # Currently only two keystrokes: ESC and 'g'
         for event in pygame.event.get():
@@ -559,7 +562,7 @@ class Game:
                 print event
 
                 if hasattr(event, 'key') and event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_f:
+                    if event.key == pygame.K_a:
                         print "f"
                         if self.graphics.fullscreen:
                             self.graphics.fullscreen=0
@@ -594,6 +597,26 @@ class Game:
                     elif event.key == pygame.K_9:
                         print "timing 90"
                         self.game_time = 90.0
+
+		print event, dir(event)
+
+                if (event.type == KEYDOWN and event.key == K_w and event.mod == 0 ):
+		    width_factor *= 0.98
+                
+		if (event.type == KEYDOWN and event.key == K_w and event.mod == 1 ):
+		    width_factor *= 1.02
+		
+		if (event.type == KEYDOWN and event.key == K_h and event.mod == 0 ):
+		    height_factor *= 0.98
+		
+		if (event.type == KEYDOWN and event.key == K_h and event.mod == 1 ):
+		    height_factor *= 1.02
+		
+		if (event.type == KEYDOWN and event.key == K_f and event.mod == 0 ):
+		    floor_offset -= 0.01*height_factor
+		
+		if (event.type == KEYDOWN and event.key == K_f and event.mod == 1 ):
+		    floor_offset += 0.01*height_factor
 
                 if (event.type == KEYDOWN and event.key == K_ESCAPE):
                     if self.simulation_mode:
@@ -693,6 +716,16 @@ class Game:
                     #self.pos = np.array(markers)[:,0:3:2] # extracts x,z 
                     #self.area = np.array(markers)[:,1] # extracts y (stores area)
                     self.pos = np.array(markers)[:,0:3:1] # extracts x,z 
+		    print "pos->",self.pos
+		    #transform the points
+	 	    new_coords = []
+		    for pos in self.pos:
+		 	coord = [ pos[0]*width_factor, pos[1]*height_factor + floor_offset, pos[2] ]
+			new_coords.append( coord )
+		    for i in range( len(self.pos) ):
+			self.pos[i][0] = new_coords[i][0]
+			self.pos[i][1] = new_coords[i][1]
+			self.pos[i][2] = new_coords[i][2]
                     self.area = np.array(markers)[:,2] # extracts y (stores area)
 		    #gw
 
@@ -734,9 +767,9 @@ class Game:
                 s = self.sincelastupdate() # time since last update
 
                 for m in markers:
-                    if m[self.options.axis]>0:
+                    if m[self.options.axis]>(FUDGE + 0):
                         self.postime+=s
-                    elif m[self.options.axis]<0:
+                    elif m[self.options.axis]<(FUDGE + 0):
                         self.negtime+=s
                 
 		#gw        
