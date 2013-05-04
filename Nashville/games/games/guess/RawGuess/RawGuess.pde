@@ -33,13 +33,13 @@ float maxAngle = PI/2;
 
 //gw
 //float startZoom = 0.35750014;
-float startZoom = 1.0;
+float startZoom = 1.78; //1.0;
 //gw
 float zoom = startZoom;
 float minZoom = .032;
 float maxZoom = 2;
 PVector dolly, prevDolly;
-PVector startDolly = new PVector(89, -21);
+PVector startDolly = new PVector(49.0, -258.0); //new PVector(89, -21);
 float rotateFactor = .005;
 float dollyFactor = 1;
 float xzRatio = .67;
@@ -49,7 +49,7 @@ int prevLevel = 0;
 float angle, inc, prevZoom;
 float deltaMouseX, deltaMouseY, startX, startY;
 
-float startDeltaX = -1;
+float startDeltaX = -1.0; //-1;
 float startDeltaY = 250;//350;
 float minDeltaY = 320;
 float maxDeltaY = 60;
@@ -78,6 +78,8 @@ AudioSample win;
 Minim minim;
 
 float height_factor = 1.0f;
+float width_factor = 1.0f;
+float floor_offset = 0.0;
 
 void loadImages() {
 
@@ -151,7 +153,7 @@ void setup() {
 
 void loadData() {
   String message = vd.getData();
-  System.out.println(message);
+  //System.out.println(message);
   ss.addStrokesFromJSON(message);
 }
 
@@ -462,6 +464,8 @@ void keyPressed() {
     println("Zoom: " + zoom);
     println("Dolly: (" + dolly.x + "," + dolly.y + ")");
     println("Rotate: (" + deltaMouseX + "," + deltaMouseY + ")");
+    println("Height Factor: " + height_factor );
+    println("Width Factor: " + width_factor );
   }
   
   //gw
@@ -482,7 +486,34 @@ void keyPressed() {
     ss.height_factor = height_factor;
   }
   
-  
+  if (key=='w')
+  {
+    width_factor = width_factor * 0.98;
+    ss.width_factor = width_factor;
+  }
+  if (key=='W')
+  {
+    width_factor = width_factor * 1.02;
+    ss.width_factor = width_factor;
+  }
+    
+  if (key=='f')
+  {
+    floor_offset += (.01 * height_factor);
+    ss.floor_offset = floor_offset;
+  }
+  if (key=='F')
+  {
+    floor_offset  -= (.01 * height_factor);
+    ss.floor_offset = floor_offset;
+  }
+
+  if (key=='0')
+  {
+    width_factor = 1;
+    height_factor = 1;
+    floor_offset = 0; 
+  }
   //gw
 }
 

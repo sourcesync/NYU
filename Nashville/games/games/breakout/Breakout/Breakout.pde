@@ -158,7 +158,7 @@ void drawBalls() {
 void getData() {
     
    String newData = vd.getData();
-   System.out.println( "data " + newData );
+   //System.out.println( "data " + newData );
    
    try {
      
@@ -193,7 +193,7 @@ void getData() {
         locations[i][2] =(float)xyz.getDouble(2); 
         
         //gw - mirror y and possibly scale...
-        locations[i][1] = (1.0 - locations[i][1]*height_factor) - floor_offset;
+        locations[i][1] = (1.0 - locations[i][1]*height_factor) + floor_offset;
         //gw
         
         locations[i][0] = (locations[i][0]*width_factor);
@@ -252,31 +252,31 @@ void keyPressed() {
   }
   if (key=='h')
   {
-    height_factor = height_factor * 1.02;
+    height_factor = height_factor * 0.98;
   }
   if (key=='H')
   {
-    height_factor = height_factor * 0.98;
+    height_factor = height_factor * 1.02;
   }
   //gw
   
   
   if (key=='w')
   {
-    width_factor = width_factor * 1.02;
+    width_factor = width_factor * 0.98;
   }
   if (key=='W')
   {
-    width_factor = width_factor * 0.98;
+    width_factor = width_factor * 1.02;
   }
     
   if (key=='f')
   {
-    floor_offset = floor_offset += .01;
+    floor_offset  += (.01 * height_factor);
   }
   if (key=='F')
   {
-    floor_offset = floor_offset -= .01;
+    floor_offset -= (.01 * height_factor);
   }
   
   if (key=='0')
@@ -284,6 +284,13 @@ void keyPressed() {
     width_factor = 1;
     height_factor = 1;
     floor_offset = 0; 
+  }
+  
+  if ( key=='v')
+  {
+    println("Width Factor:" + width_factor);
+    println("Height Factor:" + height_factor);
+    println("Floor Offset:" + floor_offset);
   }
   
 }

@@ -55,7 +55,9 @@ class StrokeSet {
   
   boolean large_mode = false;
   float height_factor = 1.0;
-
+  float width_factor = 1.0;
+  float floor_offset = 0.0;
+  
   StrokeSet(PApplet parent) {
     objectLookup = new HashMap();
     objectLookup.put("gw_big_black",-2);
@@ -316,15 +318,15 @@ class StrokeSet {
         } 
         else {
           xyz = objs.getJSONArray(i);
-          System.out.println(xyz);
+          //System.out.println(xyz);
         }
 
     //gw
-        float xx = (float)xyz.getDouble(0) * 800.0;
+        float xx = (float)xyz.getDouble(0) * 800.0 * width_factor;
         //float yy = 0;//(float)xyz.getDouble(1);
         //float zz = (float)xyz.getDouble(2);
         float yy = 0;
-        float zz = (float)xyz.getDouble(1) * 400.0 * height_factor;
+        float zz = (float)xyz.getDouble(1) * 400.0 *height_factor - 400.0 * floor_offset;
      //gw
         
         //if (zz < 0) continue;
